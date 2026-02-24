@@ -1,0 +1,273 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8552540572296445783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -1576.8002
+    y: 207.99957
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: "\u2026Fiuu\u2026 It's over now. I was shaking just by hearing his voice"
+    characterSprite: {fileID: 2016525513, guid: eaf71d551a25acc47b1476117558526e,
+      type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -7391384910845322222}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &-7391384910845322222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -1204.8005
+    y: 231.19957
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: Thank you, Hektor!, for helping me to communicate with that bird!
+    characterSprite: {fileID: -1000162966, guid: 735d92e31e6a4b84b8e2854100b4eec7,
+      type: 3}
+  parentNode: {fileID: -8552540572296445783}
+  childNode: {fileID: 2967993187830343460}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &-6984641058172681176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 238.40396
+    y: 206.3995
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: I wonder How much I should endure these overwhelming feelings
+    characterSprite: {fileID: -1000162966, guid: 735d92e31e6a4b84b8e2854100b4eec7,
+      type: 3}
+  parentNode: {fileID: 6635162609298422789}
+  childNode: {fileID: 8825926576671166626}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: PostPark
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: -8552540572296445783}
+  - {fileID: -7391384910845322222}
+  - {fileID: 2967993187830343460}
+  - {fileID: 4625458252690311071}
+  - {fileID: 2103456007406285512}
+  - {fileID: 6635162609298422789}
+  - {fileID: -6984641058172681176}
+  - {fileID: 8825926576671166626}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &2103456007406285512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -265.59885
+    y: 195.19954
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Hektor
+    text: Bzzzz, bzz
+    characterSprite: {fileID: 2016525513, guid: eaf71d551a25acc47b1476117558526e,
+      type: 3}
+  parentNode: {fileID: 4625458252690311071}
+  childNode: {fileID: 6635162609298422789}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &2967993187830343460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -896.80005
+    y: 250.39929
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Hektor
+    text: Bz, bzz, bzzz!
+    characterSprite: {fileID: -1000162966, guid: 735d92e31e6a4b84b8e2854100b4eec7,
+      type: 3}
+  parentNode: {fileID: -7391384910845322222}
+  childNode: {fileID: 4625458252690311071}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &4625458252690311071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -560.79926
+    y: 250.39954
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: "There, there, friend\u2026 Take a honey cookie"
+    characterSprite: {fileID: -1000162966, guid: 735d92e31e6a4b84b8e2854100b4eec7,
+      type: 3}
+  parentNode: {fileID: 2967993187830343460}
+  childNode: {fileID: 2103456007406285512}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &6635162609298422789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -33.597473
+    y: 202.39952
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: Haha, look at you so happy, turning around!...
+    characterSprite: {fileID: 2016525513, guid: eaf71d551a25acc47b1476117558526e,
+      type: 3}
+  parentNode: {fileID: 2103456007406285512}
+  childNode: {fileID: -6984641058172681176}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &8825926576671166626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 481.60544
+    y: 183.99947
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: "For now, let\u2019s go home and rest.."
+    characterSprite: {fileID: -1797342823, guid: 77e718a925436cf4190fc85ff7304e7a,
+      type: 3}
+  parentNode: {fileID: -6984641058172681176}
+  childNode: {fileID: 0}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras

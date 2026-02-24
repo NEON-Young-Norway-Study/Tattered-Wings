@@ -1,0 +1,434 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8559588960738569100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -647.1979
+    y: 481.59927
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: "Rub\xED"
+    text: 'TJ! Come over here... Hektor wants to go outside. '
+    characterSprite: {fileID: -537140655, guid: 17afd835f78f2e14dbef057795ed6b6b,
+      type: 3}
+  parentNode: {fileID: -3995692741776536907}
+  childNode: {fileID: 1249571986894072795}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &-6043417209500614240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -924.79755
+    y: 289.59915
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Hektor
+    text: Bzz, bzzzz.
+    characterSprite: {fileID: -537140655, guid: 17afd835f78f2e14dbef057795ed6b6b,
+      type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -3995692741776536907}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &-4715536530571700974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -1488.8005
+    y: 285.59927
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Hektor
+    text: Bzz, bz, bzzzzz.
+    characterSprite: {fileID: -537140655, guid: 17afd835f78f2e14dbef057795ed6b6b,
+      type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 2880001770665781658}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &-3995692741776536907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -675.99817
+    y: 297.5989
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: "Rub\xED"
+    text: "Oh, I understand\u2026 I\u2019ll tell him. "
+    characterSprite: {fileID: -537140655, guid: 17afd835f78f2e14dbef057795ed6b6b,
+      type: 3}
+  parentNode: {fileID: -6043417209500614240}
+  childNode: {fileID: -8559588960738569100}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &-3162733805722035664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 923.2024
+    y: 377.59995
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: ...
+    characterSprite: {fileID: -1797342823, guid: 77e718a925436cf4190fc85ff7304e7a,
+      type: 3}
+  parentNode: {fileID: 1329150425700326545}
+  childNode: {fileID: 0}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-2305257387698549283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 59.201233
+    y: 302.39914
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: "Who\u2019s the best bee in the world? "
+    characterSprite: {fileID: 2096496261, guid: 931daf1d190ebc34ba6a4225327014de,
+      type: 3}
+  parentNode: {fileID: 8126128295975184550}
+  childNode: {fileID: 4760925066161558861}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: LevelTwo
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: 3879831287147672063}
+  - {fileID: -4715536530571700974}
+  - {fileID: 2880001770665781658}
+  - {fileID: -6043417209500614240}
+  - {fileID: -3995692741776536907}
+  - {fileID: 6750558375475342054}
+  - {fileID: 8126128295975184550}
+  - {fileID: -2305257387698549283}
+  - {fileID: 4760925066161558861}
+  - {fileID: 1329150425700326545}
+  - {fileID: -8559588960738569100}
+  - {fileID: 1249571986894072795}
+  - {fileID: -3162733805722035664}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &1249571986894072795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -404.00067
+    y: 487.99954
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: "Rub\xED"
+    text: "It\u2019s been days since you two went for a walk, and today the weather
+      is perfect for stretching your wings. "
+    characterSprite: {fileID: 1739000180, guid: 54c1a23fbf3810a4da0be2a4ea151463,
+      type: 3}
+  parentNode: {fileID: -8559588960738569100}
+  childNode: {fileID: 6750558375475342054}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &1329150425700326545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 613.5965
+    y: 313.59958
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: "(Okay, okay\u2026 I can do this. Let\u2019s breathe deeply\u2026 and there
+      we go! )"
+    characterSprite: {fileID: -1160613540, guid: 44c3e195ef020fe4a8babdc1deee0693,
+      type: 3}
+  parentNode: {fileID: 4760925066161558861}
+  childNode: {fileID: -3162733805722035664}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &2880001770665781658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -1246.3982
+    y: 285.5988
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: "Rub\xED"
+    text: 'Hektor, why are you running around the house? '
+    characterSprite: {fileID: 1739000180, guid: 54c1a23fbf3810a4da0be2a4ea151463,
+      type: 3}
+  parentNode: {fileID: -4715536530571700974}
+  childNode: {fileID: -6043417209500614240}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &3879831287147672063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 4064.8235
+    y: -7018.399
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: I'm the king of the world
+    characterSprite: {fileID: 21300000, guid: c03d0e70107745d48b9cc5f2abe74fe5, type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 0}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &4760925066161558861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 295.99847
+    y: 300.79916
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Hektor
+    text: Bzz, bzz.
+    characterSprite: {fileID: 2096496261, guid: 931daf1d190ebc34ba6a4225327014de,
+      type: 3}
+  parentNode: {fileID: -2305257387698549283}
+  childNode: {fileID: 1329150425700326545}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &6750558375475342054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -400.00165
+    y: 299.19894
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: " Oh! Okay, okay, we\u2019ll go. "
+    characterSprite: {fileID: 1626126311, guid: a74d6303d0b71d84e979ca0626f8b8c9,
+      type: 3}
+  parentNode: {fileID: 1249571986894072795}
+  childNode: {fileID: 8126128295975184550}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &8126128295975184550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -166.39948
+    y: 301.59885
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Hektor
+    text: 'Bz, bzzz, bz. '
+    characterSprite: {fileID: 1101576385, guid: 8f13564a130f515469e0e48afdf98133,
+      type: 3}
+  parentNode: {fileID: 6750558375475342054}
+  childNode: {fileID: -2305257387698549283}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras

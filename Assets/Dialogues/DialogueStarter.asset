@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8086787297515348720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 10.398254
+    y: 327.2005
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Ruby
+    text: 'Tj is geting late, you should be leaving for the school you know that
+      your father will be mad if you don''t follow the rules '
+    characterSprite: {fileID: -537140655, guid: 17afd835f78f2e14dbef057795ed6b6b,
+      type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 8187437020208296193}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &-3253213328560902720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1351.202
+    y: 310.39996
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: ...
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: -1375707594016120557}
+  childNode: {fileID: 0}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &-1375707594016120557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1023.2019
+    y: 265.6001
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: ...
+    characterSprite: {fileID: 0}
+  parentNode: {fileID: 154114819519516453}
+  childNode: {fileID: -3253213328560902720}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: DialogueStarter
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: -8086787297515348720}
+  - {fileID: 8187437020208296193}
+  - {fileID: 154114819519516453}
+  - {fileID: -1375707594016120557}
+  - {fileID: -3253213328560902720}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &154114819519516453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 658.3981
+    y: 275.20056
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Ruby
+    text: Have a good day!
+    characterSprite: {fileID: 1739000180, guid: 54c1a23fbf3810a4da0be2a4ea151463,
+      type: 3}
+  parentNode: {fileID: 8187437020208296193}
+  childNode: {fileID: -1375707594016120557}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &8187437020208296193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 331.99817
+    y: 271.2008
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: I know, I know... see you.
+    characterSprite: {fileID: -537140655, guid: 17afd835f78f2e14dbef057795ed6b6b,
+      type: 3}
+  parentNode: {fileID: -8086787297515348720}
+  childNode: {fileID: 154114819519516453}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras

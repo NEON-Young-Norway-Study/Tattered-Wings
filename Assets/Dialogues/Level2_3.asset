@@ -1,0 +1,1102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8401495127668013892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -4340.8296
+    y: 26.399315
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: "We\u2019ll help you find your family."
+    characterSprite: {fileID: -1000162966, guid: 735d92e31e6a4b84b8e2854100b4eec7,
+      type: 3}
+  parentNode: {fileID: 363960556590654366}
+  childNode: {fileID: 26784290896342633}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &-7263887918870815400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -1228.8022
+    y: 300.0008
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: (TJ breathes deeply and feels ready to confront the stranger bird)
+    characterSprite: {fileID: 1173855435, guid: 9aead081219e1624d8c67c232889067e,
+      type: 3}
+  parentNode: {fileID: -1090177966519065121}
+  childNode: {fileID: 6923090055518800014}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &-4907886124324577263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -2805.6199
+    y: 289.60065
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Aster
+    text: 'Here you are! '
+    characterSprite: {fileID: 409048637, guid: b6a63afbd0ee8cf4ab3b6ee3e1222270, type: 3}
+  parentNode: {fileID: 8990828250572085791}
+  childNode: {fileID: 4357587572147508985}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &-4581788100768561263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -5478.408
+    y: 71.19952
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Hektor
+    text: Bzz, bzzzzzzzz.
+    characterSprite: {fileID: 1544103959, guid: 405d96ad742b71a4ebc0118f36c7853b,
+      type: 3}
+  parentNode: {fileID: 0}
+  childNode: {fileID: 7266959390310043140}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &-4400616497924857970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -363.18735
+    y: 307.20093
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: "I\u2019m happy that we found him in time."
+    characterSprite: {fileID: 1173855435, guid: 9aead081219e1624d8c67c232889067e,
+      type: 3}
+  parentNode: {fileID: -785151200324186072}
+  childNode: {fileID: 211109431164026026}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &-3056894212153018281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1013.6164
+    y: 303.20135
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: Thank you, mister Aster
+    characterSprite: {fileID: 1173855435, guid: 9aead081219e1624d8c67c232889067e,
+      type: 3}
+  parentNode: {fileID: 5455545420970961028}
+  childNode: {fileID: 4878640616231475114}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &-2801537403408168993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 524.82104
+    y: 314.40137
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Aster
+    text: 'My name is Aster. '
+    characterSprite: {fileID: 1173855435, guid: 9aead081219e1624d8c67c232889067e,
+      type: 3}
+  parentNode: {fileID: 7779304650814780237}
+  childNode: {fileID: 5455545420970961028}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &-1424290403281336225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -5018.409
+    y: 79.19967
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: 'Hello, little one! What are you doing here? '
+    characterSprite: {fileID: 2016525513, guid: eaf71d551a25acc47b1476117558526e,
+      type: 3}
+  parentNode: {fileID: 7266959390310043140}
+  childNode: {fileID: 5209802261579204232}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &-1090177966519065121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -1600.0073
+    y: 419.2016
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: "(Hektor climbs onto TJ\u2019s shoulder)"
+    characterSprite: {fileID: 1173855435, guid: 9aead081219e1624d8c67c232889067e,
+      type: 3}
+  parentNode: {fileID: 1279123355376532412}
+  childNode: {fileID: -7263887918870815400}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &-1079670755825441474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1280.0146
+    y: 652.00226
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Aster
+    text: 'See you around! '
+    characterSprite: {fileID: -1970122269, guid: 39a074fe5976e9044886dd9b40d95fa9,
+      type: 3}
+  parentNode: {fileID: 5442727364447670398}
+  childNode: {fileID: 0}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtrass
+--- !u!114 &-785151200324186072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -591.9892
+    y: 310.40143
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Aster
+    text: 'Yes, Monarde is my pet, and today he got scared by a spider and ran away. '
+    characterSprite: {fileID: 1173855435, guid: 9aead081219e1624d8c67c232889067e,
+      type: 3}
+  parentNode: {fileID: 4364046174485353202}
+  childNode: {fileID: -4400616497924857970}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: Level2_3
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: -4581788100768561263}
+  - {fileID: 7266959390310043140}
+  - {fileID: -1424290403281336225}
+  - {fileID: 5209802261579204232}
+  - {fileID: 363960556590654366}
+  - {fileID: -8401495127668013892}
+  - {fileID: 26784290896342633}
+  - {fileID: 1793030320429891453}
+  - {fileID: 4476242552734103686}
+  - {fileID: 3239311090351293339}
+  - {fileID: 4525733369679465384}
+  - {fileID: 737584074225891718}
+  - {fileID: 8990828250572085791}
+  - {fileID: -4907886124324577263}
+  - {fileID: 4357587572147508985}
+  - {fileID: 3547387101187065248}
+  - {fileID: 2019841250489785025}
+  - {fileID: 3868012879595748672}
+  - {fileID: 1279123355376532412}
+  - {fileID: -1090177966519065121}
+  - {fileID: -7263887918870815400}
+  - {fileID: 6923090055518800014}
+  - {fileID: 4364046174485353202}
+  - {fileID: -785151200324186072}
+  - {fileID: -4400616497924857970}
+  - {fileID: 211109431164026026}
+  - {fileID: 4720224883008288336}
+  - {fileID: 7779304650814780237}
+  - {fileID: -2801537403408168993}
+  - {fileID: 5455545420970961028}
+  - {fileID: -3056894212153018281}
+  - {fileID: 4878640616231475114}
+  - {fileID: 5442727364447670398}
+  - {fileID: -1079670755825441474}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &26784290896342633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -4108.025
+    y: 79.19967
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Hektor
+    text: Bz, bzz.
+    characterSprite: {fileID: -1603123972, guid: ce22b1e2c520a6b4baaa859a3c770e92,
+      type: 3}
+  parentNode: {fileID: -8401495127668013892}
+  childNode: {fileID: 1793030320429891453}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &211109431164026026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -156.79224
+    y: 309.6015
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: 'It seems that Hektor likes him. '
+    characterSprite: {fileID: 1173855435, guid: 9aead081219e1624d8c67c232889067e,
+      type: 3}
+  parentNode: {fileID: -4400616497924857970}
+  childNode: {fileID: 4720224883008288336}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &363960556590654366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -4624.0244
+    y: 103.19987
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: "Oh, I see. You\u2019re lost\u2026"
+    characterSprite: {fileID: 2016525513, guid: eaf71d551a25acc47b1476117558526e,
+      type: 3}
+  parentNode: {fileID: 5209802261579204232}
+  childNode: {fileID: -8401495127668013892}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &737584074225891718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -3283.222
+    y: 280.80054
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: Thank you for comforting me, Hektor.
+    characterSprite: {fileID: 1173855435, guid: 9aead081219e1624d8c67c232889067e,
+      type: 3}
+  parentNode: {fileID: 4525733369679465384}
+  childNode: {fileID: 8990828250572085791}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &1279123355376532412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -1765.6099
+    y: 82.40063
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Hektor
+    text: 'Bzz. '
+    characterSprite: {fileID: 2016525513, guid: eaf71d551a25acc47b1476117558526e,
+      type: 3}
+  parentNode: {fileID: 3868012879595748672}
+  childNode: {fileID: -1090177966519065121}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &1793030320429891453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -4299.2275
+    y: 279.20056
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: ' I can see a bird flying towards us.'
+    characterSprite: {fileID: 2016525513, guid: eaf71d551a25acc47b1476117558526e,
+      type: 3}
+  parentNode: {fileID: 26784290896342633}
+  childNode: {fileID: 4476242552734103686}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &2019841250489785025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -2232.0134
+    y: 126.39985
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Aster
+    text: 'Hello, kid! '
+    characterSprite: {fileID: 2016525513, guid: eaf71d551a25acc47b1476117558526e,
+      type: 3}
+  parentNode: {fileID: 3547387101187065248}
+  childNode: {fileID: 3868012879595748672}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &3239311090351293339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -3698.422
+    y: 277.60095
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Hektor
+    text: Bz, bzzz, bz.
+    characterSprite: {fileID: 2016525513, guid: eaf71d551a25acc47b1476117558526e,
+      type: 3}
+  parentNode: {fileID: 4476242552734103686}
+  childNode: {fileID: 4525733369679465384}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &3547387101187065248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -2388.0173
+    y: 292.80048
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Monarde
+    text: 'Bzz. '
+    characterSprite: {fileID: 409048637, guid: b6a63afbd0ee8cf4ab3b6ee3e1222270, type: 3}
+  parentNode: {fileID: 4357587572147508985}
+  childNode: {fileID: 2019841250489785025}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &3868012879595748672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -2000.0156
+    y: 320.80096
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: "(I\u2019m scared\u2026 I feel like flying away\u2026)"
+    characterSprite: {fileID: 2016525513, guid: eaf71d551a25acc47b1476117558526e,
+      type: 3}
+  parentNode: {fileID: 2019841250489785025}
+  childNode: {fileID: 1279123355376532412}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &4357587572147508985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -2604.0188
+    y: 290.40063
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Aster
+    text: ' Why did you run away? '
+    characterSprite: {fileID: 409048637, guid: b6a63afbd0ee8cf4ab3b6ee3e1222270, type: 3}
+  parentNode: {fileID: -4907886124324577263}
+  childNode: {fileID: 3547387101187065248}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &4364046174485353202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -800.79205
+    y: 305.6012
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Aster
+    text: 'Haha, what a respectful kid! '
+    characterSprite: {fileID: 1173855435, guid: 9aead081219e1624d8c67c232889067e,
+      type: 3}
+  parentNode: {fileID: 6923090055518800014}
+  childNode: {fileID: -785151200324186072}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &4476242552734103686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -4018.4207
+    y: 353.60052
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: "(I don\u2019t feel prepared for this\u2026)"
+    characterSprite: {fileID: 2016525513, guid: eaf71d551a25acc47b1476117558526e,
+      type: 3}
+  parentNode: {fileID: 1793030320429891453}
+  childNode: {fileID: 3239311090351293339}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &4525733369679465384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -3539.219
+    y: 540.00006
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Hektor
+    text: Bz, bzzz, bz. (Hektor rubs against TJ's wings)
+    characterSprite: {fileID: 1173855435, guid: 9aead081219e1624d8c67c232889067e,
+      type: 3}
+  parentNode: {fileID: 3239311090351293339}
+  childNode: {fileID: 737584074225891718}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &4720224883008288336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 57.613403
+    y: 313.60156
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Hektor
+    text: Bzz, bz.
+    characterSprite: {fileID: -1603123972, guid: ce22b1e2c520a6b4baaa859a3c770e92,
+      type: 3}
+  parentNode: {fileID: 211109431164026026}
+  childNode: {fileID: 7779304650814780237}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &4878640616231475114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1028.8147
+    y: 481.60095
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: We have to go now.
+    characterSprite: {fileID: -1970122269, guid: 39a074fe5976e9044886dd9b40d95fa9,
+      type: 3}
+  parentNode: {fileID: -3056894212153018281}
+  childNode: {fileID: 5442727364447670398}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &5209802261579204232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -4786.42
+    y: -140.80148
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Monarde
+    text: Bzzzzzz.
+    characterSprite: {fileID: 2016525513, guid: eaf71d551a25acc47b1476117558526e,
+      type: 3}
+  parentNode: {fileID: -1424290403281336225}
+  childNode: {fileID: 363960556590654366}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &5442727364447670398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1032.0149
+    y: 659.2015
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Aster
+    text: Goodbye, kid!
+    characterSprite: {fileID: -1970122269, guid: 39a074fe5976e9044886dd9b40d95fa9,
+      type: 3}
+  parentNode: {fileID: 4878640616231475114}
+  childNode: {fileID: -1079670755825441474}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &5455545420970961028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 761.61334
+    y: 296.00177
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Aster
+    text: ' We usually come daily to the park to relax, so come and join us whenever
+      you''re around! '
+    characterSprite: {fileID: 1173855435, guid: 9aead081219e1624d8c67c232889067e,
+      type: 3}
+  parentNode: {fileID: -2801537403408168993}
+  childNode: {fileID: -3056894212153018281}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &6923090055518800014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -1003.2002
+    y: 300.80072
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: "\u2026Hello, mister, is this your bee?"
+    characterSprite: {fileID: 1173855435, guid: 9aead081219e1624d8c67c232889067e,
+      type: 3}
+  parentNode: {fileID: -7263887918870815400}
+  childNode: {fileID: 4364046174485353202}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &7266959390310043140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -5231.209
+    y: 79.19979
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: 'Wow, you found a friend! '
+    characterSprite: {fileID: 1183935749, guid: ccce4619aafe97e45a4d90e80b90009d,
+      type: 3}
+  parentNode: {fileID: -4581788100768561263}
+  childNode: {fileID: -1424290403281336225}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &7779304650814780237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 305.6167
+    y: 316.0014
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: Wow, you became friends, I understand.
+    characterSprite: {fileID: 1173855435, guid: 9aead081219e1624d8c67c232889067e,
+      type: 3}
+  parentNode: {fileID: 4720224883008288336}
+  childNode: {fileID: -2801537403408168993}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &8990828250572085791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -3040.8186
+    y: 283.20056
+    width: 190
+    height: 155
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Aster
+    text: 'Monaaaaard! Monaaaard! '
+    characterSprite: {fileID: 33799009, guid: 6ee40abe4de43eb4f90582cf2c718371, type: 3}
+  parentNode: {fileID: 737584074225891718}
+  childNode: {fileID: -4907886124324577263}
+  isExternalFunc: 1
+  externalFunctionName: ShowSentenceExtras
