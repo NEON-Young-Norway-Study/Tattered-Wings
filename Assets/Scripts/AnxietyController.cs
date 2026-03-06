@@ -1,4 +1,5 @@
 using UnityEngine;
+using Xasu.HighLevel;
 
 public class AnxietyController : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class AnxietyController : MonoBehaviour
             Debug.Log("Triggered");
             // Set the boolean parameter to false
             animator.SetBool(isAnxious, true);
+            AccessibleTracker.Instance.Accessed(gameObject.name, AccessibleTracker.AccessibleType.Zone).WithResultExtension("https://inside", true);
             Debug.Log("Player entered the trigger, Animator bool set to false.");
         }
     }
@@ -29,6 +31,7 @@ public class AnxietyController : MonoBehaviour
         {
             // Set the boolean parameter to true
             animator.SetBool(isAnxious, false);
+            AccessibleTracker.Instance.Accessed(gameObject.name, AccessibleTracker.AccessibleType.Zone).WithResultExtension("https://inside", false);
             Debug.Log("Player exited the trigger, Animator bool set to true.");
         }
     }

@@ -5,6 +5,7 @@ using System.Reflection;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using Xasu.HighLevel;
 
 [Serializable]
 public class SentenceExtras
@@ -29,11 +30,22 @@ public class DialogueOneStart : MonoBehaviour
 
     private int currentSentenceExtrasIndex = 0;
     private AudioSource audioSource;
+    private int nodesShown = 0;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
+
+        if (dialogBehaviour != null)
+        {
+            dialogBehaviour.OnSentenceNodeActive += () =>
+            {
+                nodesShown++;
+                CompletableTracker.Instance.Progressed(dialogGraph.name, CompletableTracker.CompletableType.DialogNode, nodesShown / (float)dialogGraph.nodesList.Count);
+            };
+            dialogBehaviour.OnDialogTextSkipped += (text) => AccessibleTracker.Instance.Skipped(dialogBehaviour.GetCurrentNode().name, AccessibleTracker.AccessibleType.Cutscene);
+        }
 
         if (secondImage != null)
             secondImage.gameObject.SetActive(false);
@@ -45,7 +57,11 @@ public class DialogueOneStart : MonoBehaviour
             dialogBehaviour.AddListenerToDialogFinishedEvent(OnDialogFinished);
         currentSentenceExtrasIndex = 0;
         if (autoStartDialogue)
+        {
+            CompletableTracker.Instance.Initialized(dialogGraph.name, CompletableTracker.CompletableType.DialogNode);
             dialogBehaviour.StartDialog(dialogGraph);
+        }
+            
         
     }
 
@@ -110,6 +126,8 @@ public class DialogueOneStart : MonoBehaviour
 
     public void OnDialogFinished()
     {
+        CompletableTracker.Instance.Completed(dialogGraph.name, CompletableTracker.CompletableType.DialogNode);
+        AccessibleTracker.Instance.Accessed(sceneToLoad, AccessibleTracker.AccessibleType.Area);
         SceneManager.LoadScene(sceneToLoad);
     }
 

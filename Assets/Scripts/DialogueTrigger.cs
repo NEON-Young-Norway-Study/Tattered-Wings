@@ -1,5 +1,7 @@
 using cherrydev;
 using UnityEngine;
+using Xasu;
+using Xasu.HighLevel;
 
 public class DialogueTrigger : MonoBehaviour
 {
@@ -11,7 +13,20 @@ public class DialogueTrigger : MonoBehaviour
     [SerializeField] private float newEnergyJump = 0f;
     [SerializeField] private float newJumpForce = 0f;
     private int timesPlayed = 0;
+    private int nodesShown = 0;
 
+    private void Start()
+    {
+        if(dialogBehaviour != null)
+        {
+            dialogBehaviour.OnSentenceNodeActive += () =>
+            {
+                nodesShown++;
+                CompletableTracker.Instance.Progressed(dialogGraph.name, CompletableTracker.CompletableType.DialogNode, nodesShown / (float) dialogGraph.nodesList.Count);
+            };
+            dialogBehaviour.OnDialogTextSkipped += (text) => AccessibleTracker.Instance.Skipped(dialogBehaviour.GetCurrentNode().name, AccessibleTracker.AccessibleType.Cutscene);
+        }
+    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -19,7 +34,8 @@ public class DialogueTrigger : MonoBehaviour
         {
             playerController.StopMovement();
             dialogBehaviour.StartDialog(dialogGraph);
-            
+            CompletableTracker.Instance.Initialized(dialogGraph.name, CompletableTracker.CompletableType.DialogNode);
+
             if (newEnergyJump > 0)
                 playerController.gameObject.GetComponent<EnergyController>().setNewEnergyPerJump(newEnergyJump);
 
@@ -39,7 +55,10 @@ public class DialogueTrigger : MonoBehaviour
         playerController.AllowMovement();
         if (playUI != null)
            playUI.ShowAllControls();
-        
+
+        CompletableTracker.Instance.Completed(dialogGraph.name, CompletableTracker.CompletableType.DialogNode);
+        nodesShown = 0;
+
     }
 
 }

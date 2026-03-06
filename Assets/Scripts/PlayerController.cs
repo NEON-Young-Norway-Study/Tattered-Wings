@@ -3,6 +3,7 @@ using Terresquall;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.InputSystem;
+using Xasu.HighLevel;
 
 public class PlayerController : MonoBehaviour
 {
@@ -33,6 +34,7 @@ public class PlayerController : MonoBehaviour
     private Vector3 currentVelocity = Vector3.zero;
     private bool isGrounded = false;
     private int hitstopFrames = 0;
+    private Vector2 moveAxis;
 
     // Duration for each color transition
     // Initial color (white)
@@ -48,6 +50,10 @@ public class PlayerController : MonoBehaviour
         jumpAction = InputSystem.actions.FindAction("Jump");
         moveAction = InputSystem.actions.FindAction("Move");
         jumpAction.performed += ctx => Jump();
+        jumpAction.RegisterAnalytics();
+        moveAction.performed += ctx => moveAxis = ctx.ReadValue<Vector2>(); 
+        moveAction.canceled += ctx => moveAxis = Vector2.zero; 
+        moveAction.RegisterAnalytics();
         PlayUI.OnJumpButtonPressed += Jump;
 
     }
@@ -56,6 +62,10 @@ public class PlayerController : MonoBehaviour
     private void OnDestroy()
     {
         jumpAction.performed -= ctx => Jump();
+        jumpAction.UnregisterAnalytics();
+        moveAction.performed -= ctx => moveAxis = ctx.ReadValue<Vector2>();
+        moveAction.canceled -= ctx => moveAxis = Vector2.zero; 
+        moveAction.UnregisterAnalytics();
         PlayUI.OnJumpButtonPressed -= Jump;
     }
 
@@ -103,7 +113,7 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
-        var joystickAxis = virtualJoystick.GetAxis();
+        var joystickAxis = virtualJoystick.GetAxis() + moveAxis;
 
 
         // Verificar si el personaje está en el suelo

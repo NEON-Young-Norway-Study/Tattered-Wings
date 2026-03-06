@@ -1,4 +1,5 @@
 using UnityEngine;
+using Xasu.HighLevel;
 
 public class EnemyBird : MonoBehaviour
 {
@@ -114,7 +115,7 @@ public class EnemyBird : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player") && dmgToPlayer)
         {
-           
+            GameObjectTracker.Instance.Interacted(gameObject.name, GameObjectTracker.TrackedGameObject.Enemy);
             var playerController = collision.gameObject.GetComponent<PlayerController>();
             playerController.TakeDamage();
         }

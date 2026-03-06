@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Xasu.HighLevel;
 
 public class ContinueZone : MonoBehaviour
 {
@@ -28,6 +29,7 @@ public class ContinueZone : MonoBehaviour
             
             timeElapsed = false;
             counter = 0f;
+            AccessibleTracker.Instance.Accessed(sceneToLoad, AccessibleTracker.AccessibleType.Area);
             SceneManager.LoadScene(sceneToLoad);
 
         }

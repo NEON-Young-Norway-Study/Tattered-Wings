@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using Xasu.HighLevel;
 
 
 public class PauseMenu : MonoBehaviour
@@ -51,6 +52,7 @@ public class PauseMenu : MonoBehaviour
 
     public void ShowPauseMenu()
     {
+        AccessibleTracker.Instance.Accessed("PauseMenu", AccessibleTracker.AccessibleType.Screen);
         canvas.enabled = true;
         PauseGame.isPaused = true;
     }
