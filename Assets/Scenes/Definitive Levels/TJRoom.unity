@@ -328,11 +328,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1436196806275566181, guid: 0bd08184220c9914a877f3a735221e05,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -28.819946
-      objectReference: {fileID: 0}
     - target: {fileID: 2668789269266758373, guid: 0bd08184220c9914a877f3a735221e05,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -387,7 +382,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 648336254, guid: fb658002c2a358e4f9ed97d5641ee5ae,
+      objectReference: {fileID: -2086966996, guid: 938f2669c08ea3541931dad9d95b040c,
         type: 3}
     - target: {fileID: 4825435160123347712, guid: 0bd08184220c9914a877f3a735221e05,
         type: 3}
@@ -396,44 +391,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7250229689785646963, guid: 0bd08184220c9914a877f3a735221e05,
         type: 3}
-      propertyPath: dialogCharDelay
-      value: 0.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 7250229689785646963, guid: 0bd08184220c9914a877f3a735221e05,
-        type: 3}
-      propertyPath: onDialogFinished.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7250229689785646963, guid: 0bd08184220c9914a877f3a735221e05,
-        type: 3}
-      propertyPath: onDialogFinished.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7250229689785646963, guid: 0bd08184220c9914a877f3a735221e05,
-        type: 3}
       propertyPath: onDialogFinished.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1053617390}
-    - target: {fileID: 7250229689785646963, guid: 0bd08184220c9914a877f3a735221e05,
-        type: 3}
-      propertyPath: onDialogFinished.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7250229689785646963, guid: 0bd08184220c9914a877f3a735221e05,
-        type: 3}
-      propertyPath: onDialogFinished.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnDialogFinished
-      objectReference: {fileID: 0}
-    - target: {fileID: 7250229689785646963, guid: 0bd08184220c9914a877f3a735221e05,
-        type: 3}
-      propertyPath: onDialogFinished.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: DialogueOneStart, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 7250229689785646963, guid: 0bd08184220c9914a877f3a735221e05,
-        type: 3}
-      propertyPath: onDialogFinished.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -515,57 +475,8 @@ MonoBehaviour:
   sceneToLoad: IntroDialogue
   secondImage: {fileID: 318231757}
   characterImage: {fileID: 413159913}
-  sentencesExtras:
-  - dialogueText: 
-    secondSprite: {fileID: 0}
-    audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
-    highlightSecondImage: 0
-    hideFirstImage: 0
-  - dialogueText: 
-    secondSprite: {fileID: 0}
-    audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
-    highlightSecondImage: 0
-    hideFirstImage: 0
-  - dialogueText: 
-    secondSprite: {fileID: 1544103959, guid: 405d96ad742b71a4ebc0118f36c7853b, type: 3}
-    audioClip: {fileID: 8300000, guid: 3a4181ad29155a741a5662ad29df8d45, type: 3}
-    highlightSecondImage: 1
-    hideFirstImage: 0
-  - dialogueText: Good morning Hektor
-    secondSprite: {fileID: 850726942, guid: 31999b51577db69479839aaa6b814e4b, type: 3}
-    audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
-    highlightSecondImage: 0
-    hideFirstImage: 0
-  - dialogueText: Bzz!
-    secondSprite: {fileID: 0}
-    audioClip: {fileID: 8300000, guid: e9309f3b7ce3c0b46b0024f278192fdb, type: 3}
-    highlightSecondImage: 0
-    hideFirstImage: 0
-  - dialogueText: Let's watch the astronomy channel together
-    secondSprite: {fileID: 850726942, guid: 31999b51577db69479839aaa6b814e4b, type: 3}
-    audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
-    highlightSecondImage: 0
-    hideFirstImage: 0
-  - dialogueText: Wow look at this!
-    secondSprite: {fileID: 850726942, guid: 31999b51577db69479839aaa6b814e4b, type: 3}
-    audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
-    highlightSecondImage: 0
-    hideFirstImage: 0
-  - dialogueText: It's dangerous outside
-    secondSprite: {fileID: 850726942, guid: 31999b51577db69479839aaa6b814e4b, type: 3}
-    audioClip: {fileID: 0}
-    highlightSecondImage: 0
-    hideFirstImage: 0
-  - dialogueText: Bzz bzzz!
-    secondSprite: {fileID: 850726942, guid: 31999b51577db69479839aaa6b814e4b, type: 3}
-    audioClip: {fileID: 8300000, guid: e9309f3b7ce3c0b46b0024f278192fdb, type: 3}
-    highlightSecondImage: 1
-    hideFirstImage: 0
-  - dialogueText: Sorry hektor
-    secondSprite: {fileID: 850726942, guid: 31999b51577db69479839aaa6b814e4b, type: 3}
-    audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
-    highlightSecondImage: 0
-    hideFirstImage: 0
+  background: {fileID: 0}
+  sentencesExtras: []
 --- !u!82 &1053617391
 AudioSource:
   m_ObjectHideFlags: 0

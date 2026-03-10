@@ -15,6 +15,8 @@ public class SentenceExtras
     public AudioClip audioClip;
     public bool highlightSecondImage;
     public bool hideFirstImage;
+    public Sprite nextBackground;
+    public string nextEvent;
 }
 
 public class DialogueOneStart : MonoBehaviour
@@ -26,11 +28,15 @@ public class DialogueOneStart : MonoBehaviour
     [SerializeField] private string sceneToLoad = "LevelOne";
     [SerializeField] private Image secondImage;
     [SerializeField] private Image characterImage;
+    [SerializeField] private Image background;
     public SentenceExtras[] sentencesExtras;
 
     private int currentSentenceExtrasIndex = 0;
     private AudioSource audioSource;
     private int nodesShown = 0;
+
+    public delegate void StopAmbienceSounds(); // Definir el tipo de delegado para el evento
+    public static event StopAmbienceSounds OnStopAmbienceSounds; // El evento estático al que otros scripts pueden suscribirse
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -47,11 +53,12 @@ public class DialogueOneStart : MonoBehaviour
             dialogBehaviour.OnDialogTextSkipped += (text) => AccessibleTracker.Instance.Skipped(dialogBehaviour.GetCurrentNode().name, AccessibleTracker.AccessibleType.Cutscene);
         }
 
-        if (secondImage != null)
-            secondImage.gameObject.SetActive(false);
-        else
-            Debug.LogWarning("Second image is not set in the inspector");
+        //if (secondImage != null)
+        //    secondImage.gameObject.SetActive(false);
+        //else
+        //    Debug.LogWarning("Second image is not set in the inspector");
         dialogBehaviour.BindExternalFunction("ShowSentenceExtras", ShowSentenceExtras);
+        dialogBehaviour.BindExternalFunction("StopAmbientSounds", StopAmbientSounds);
         //dialogBehaviour.OnDialogTextSkipped += DialogBehaviour_OnDialogTextSkipped;
         if (nextSceneOnDialogFinished)
             dialogBehaviour.AddListenerToDialogFinishedEvent(OnDialogFinished);
@@ -61,19 +68,11 @@ public class DialogueOneStart : MonoBehaviour
             CompletableTracker.Instance.Initialized(dialogGraph.name, CompletableTracker.CompletableType.DialogNode);
             dialogBehaviour.StartDialog(dialogGraph);
         }
-            
-        
     }
-
-
-    //private void DialogBehaviour_OnDialogTextSkipped(string obj)
-    //{
-    //    Debug.Log("Dialog Text Skipped: " + obj);
-    //}
 
     public void ShowSentenceExtras()
     {
-        if (currentSentenceExtrasIndex > sentencesExtras.Length) return;
+        if (currentSentenceExtrasIndex >= sentencesExtras.Length) return;
 
         var extras = sentencesExtras[currentSentenceExtrasIndex];
         if (extras == null) return;
@@ -92,8 +91,18 @@ public class DialogueOneStart : MonoBehaviour
 
         ToggleSprites(extras);
 
-        audioSource.clip = extras.audioClip;
-        audioSource.Play();
+        if (extras.nextBackground != null)        
+            OnNextBackground(extras.nextBackground);
+        
+        if (!string.IsNullOrEmpty(extras.nextEvent))
+            OnDialogueEventRaised(extras.nextEvent);
+
+        if (extras.audioClip != null)
+        {
+            audioSource.clip = extras.audioClip;
+            audioSource.Play();
+        }
+        
 
         currentSentenceExtrasIndex++;
     }
@@ -122,6 +131,34 @@ public class DialogueOneStart : MonoBehaviour
         {
             characterImage.gameObject.SetActive(true);
         }
+    }
+
+    private void OnDialogueEventRaised(string eventName)
+    {
+        if (eventName == null) return;
+
+        if (eventName == "StopAmbienceSounds")
+        {
+            OnStopAmbienceSounds?.Invoke();
+            return;
+        }
+
+        //var method = GetType().GetMethod(eventName, BindingFlags.NonPublic | BindingFlags.Instance);
+        // Debug.Log("Method name: " + eventName);
+        //Debug.Log("Method: " + method);
+        //if (method != null)
+            //method.Invoke(this, null);
+    }
+
+    public void StopAmbientSounds()
+    {
+        OnStopAmbienceSounds?.Invoke();
+    }
+
+    private void OnNextBackground(Sprite newBg)
+    {
+        if (background != null)
+            background.sprite = newBg;
     }
 
     public void OnDialogFinished()

@@ -12,8 +12,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Definitive Levels/IntroDialogue.unity
     guid: 088b6437625e5f440af82f4e0f902f09
   - enabled: 1
-    path: Assets/Scenes/Definitive Levels/LevelOne.unity
-    guid: c850ee8c3b14cc8459e7e186857cf567
+    path: Assets/Scenes/Definitive Levels/TLevelOne.unity
+    guid: 1d70f345abd53fe4695a75a433157138
+  - enabled: 1
+    path: Assets/Scenes/Definitive Levels/SchoolScene.unity
+    guid: 390e8d7ff814ea94eb2d0c041aec08c2
   - enabled: 1
     path: Assets/Scenes/Definitive Levels/Continue.unity
     guid: 61425b85479e86548861b475f76c8547
@@ -27,11 +30,26 @@ EditorBuildSettings:
     path: Assets/Scenes/Definitive Levels/pre-ParkDialogue.unity
     guid: 673ead880bd288943b16bcdd6ca8c265
   - enabled: 1
-    path: Assets/Scenes/Definitive Levels/IntroDialogueTwo.unity
+    path: Assets/Scenes/Definitive Levels/LivingRoom.unity
     guid: eaf45c07f6f42a547aa0eae22f82f517
   - enabled: 1
     path: Assets/Scenes/Definitive Levels/ParkDialogueEnd.unity
     guid: e9a9044a03082bd4d8116f9f01ba0802
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 528a1681fe93c41469590c7ce4620eda
+  - enabled: 1
+    path: Assets/Scenes/Definitive Levels/Doctor Asclepio.unity
+    guid: 92433cffee5f4424480c20844de01892
+  - enabled: 1
+    path: Assets/Scenes/Definitive Levels/TJRoom.unity
+    guid: fdf715408738d7e4eb2ffc235caef869
+  - enabled: 1
+    path: Assets/Scenes/Definitive Levels/TJRoom Evening.unity
+    guid: 096a6659a0043724cbb0b2d674d02c00
+  - enabled: 1
+    path: Assets/Scenes/Definitive Levels/EndScene.unity
+    guid: efa338f956644a64d8ab8aef7d8a6ebc
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 29bdf51ebdaeabc419df33f79cd46f2f,
       type: 2}

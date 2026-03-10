@@ -13,7 +13,7 @@ public class JumpInstruction : MonoBehaviour
     {
         print("Plataforma: " + Application.platform);
         // Detectar la plataforma en la que se ejecuta el juego
-        if (Application.platform == RuntimePlatform.WindowsPlayer || Application.platform == RuntimePlatform.WindowsEditor)
+        if (Application.platform == RuntimePlatform.WindowsPlayer || Application.platform == RuntimePlatform.WindowsEditor || Application.platform == RuntimePlatform.WebGLPlayer)
         {
             Debug.Log("Juego ejecutándose en Windows.");
             spriteRenderer.sprite = windowsSprite;

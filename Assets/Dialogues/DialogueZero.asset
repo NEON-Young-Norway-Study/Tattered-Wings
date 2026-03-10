@@ -16,20 +16,24 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 338.39984
-    y: 328.79996
+    x: 80.80185
+    y: 445.6002
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: Hektor
     text: Bzz bzzz!
-    characterSprite: {fileID: 1248683581, guid: 31c315c5dd7ef404cad1846ad048004c,
+    characterSprite: {fileID: -2046987376, guid: 6a080cecf9234ef4e8b331a338caf7eb,
       type: 3}
+    secondSprite: {fileID: -1114185884, guid: 25b4756bbd9e9d94e9d7512afe8b0fe0, type: 3}
+    audioClip: {fileID: 8300000, guid: c15dd1f96a93633429c44174e57f6891, type: 3}
+    highlightSprite: Right
+    background: {fileID: 0}
   parentNode: {fileID: -1068041405474925473}
   childNode: {fileID: 4849124798255624432}
-  isExternalFunc: 1
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras
 --- !u!114 &-7203636454171007375
 MonoBehaviour:
@@ -47,20 +51,24 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -481.6004
-    y: 410.39987
+    x: -829.60114
+    y: 189.5996
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: Hektor
     text: Bzzz
-    characterSprite: {fileID: 1248683581, guid: 31c315c5dd7ef404cad1846ad048004c,
+    characterSprite: {fileID: 2038731186, guid: bdad890f06821a44bb8f4a7ff7f86583,
       type: 3}
+    secondSprite: {fileID: -1114185884, guid: 25b4756bbd9e9d94e9d7512afe8b0fe0, type: 3}
+    audioClip: {fileID: 8300000, guid: 567a91b2671c7c04880b473758cd25b2, type: 3}
+    highlightSprite: Right
+    background: {fileID: 0}
   parentNode: {fileID: 2617629861566821970}
   childNode: {fileID: 5884135816144894790}
-  isExternalFunc: 1
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras
 --- !u!114 &-5124740251396087372
 MonoBehaviour:
@@ -78,22 +86,62 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1051.2001
-    y: 411.1998
+    x: -1379.2004
+    y: 186.3994
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: TJ
-    text: Yawn, another day begins. Oh, what a nice smell Mom left breakfast at my
-      door today; she'll definitely push me to go to school as always.
-    characterSprite: {fileID: -1344248250, guid: 639bafdf6d66f364193d77e63c5b4992,
+    text: Oh boy, another day. I see mom left breakfast at my door again - guess
+      she wants me to go to school... as always!
+    characterSprite: {fileID: -633321232, guid: 0e96a943d556f8140b3f7da12e3f6fac,
       type: 3}
+    secondSprite: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
   parentNode: {fileID: 0}
   childNode: {fileID: 2617629861566821970}
-  isExternalFunc: 1
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras
+--- !u!114 &-4736262934087076815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -392.79932
+    y: 1134.4
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: I wish I could go, but there will be way too many people gathered to watch
+      it.
+    characterSprite: {fileID: -2046987376, guid: 6a080cecf9234ef4e8b331a338caf7eb,
+      type: 3}
+    secondSprite: {fileID: -1114185884, guid: 25b4756bbd9e9d94e9d7512afe8b0fe0, type: 3}
+    audioClip: {fileID: 8300000, guid: 664fd3b0f96d0a747b37670de22f865e, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
+  parentNode: {fileID: 6707554428648621854}
+  childNode: {fileID: 3375716951885508619}
+  isExternalFunc: 0
+  externalFunctionName: 
 --- !u!114 &-1068041405474925473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110,20 +158,24 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 166.39984
-    y: 564.8
+    x: -292.7998
+    y: 452.00003
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: TJ
-    text: '(It''s dangerous outside. You won''t make it. It''ll be crowded) '
-    characterSprite: {fileID: 1248683581, guid: 31c315c5dd7ef404cad1846ad048004c,
+    characterName: 
+    text: "<color=#800080> I can\u2019t breath. They might crush me.<color=#800080></color>"
+    characterSprite: {fileID: -2046987376, guid: 6a080cecf9234ef4e8b331a338caf7eb,
       type: 3}
+    secondSprite: {fileID: -1114185884, guid: 25b4756bbd9e9d94e9d7512afe8b0fe0, type: 3}
+    audioClip: {fileID: 0}
+    highlightSprite: Left
+    background: {fileID: 0}
   parentNode: {fileID: 3375716951885508619}
   childNode: {fileID: -7859289151412990518}
-  isExternalFunc: 1
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras
 --- !u!114 &11400000
 MonoBehaviour:
@@ -149,6 +201,7 @@ MonoBehaviour:
   - {fileID: -7859289151412990518}
   - {fileID: 4849124798255624432}
   - {fileID: 1369647965101384110}
+  - {fileID: -4736262934087076815}
   nodeToDrawLineFrom: {fileID: 0}
   linePosition: {x: 0, y: 0}
 --- !u!114 &1369647965101384110
@@ -167,8 +220,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 953.59973
-    y: 375.19998
+    x: 696.79926
+    y: 316.00006
     width: 190
     height: 135
   isDragging: 0
@@ -177,8 +230,12 @@ MonoBehaviour:
     characterName: 
     text: (The bells of an old wall clock sound in the distance, and TJ hears his
       mother's voice coming from the first floor)
-    characterSprite: {fileID: 1248683581, guid: 31c315c5dd7ef404cad1846ad048004c,
+    characterSprite: {fileID: -2046987376, guid: 6a080cecf9234ef4e8b331a338caf7eb,
       type: 3}
+    secondSprite: {fileID: -1114185884, guid: 25b4756bbd9e9d94e9d7512afe8b0fe0, type: 3}
+    audioClip: {fileID: 8300000, guid: 86f2194b452a0a44483b55fbc171dec0, type: 3}
+    highlightSprite: None
+    background: {fileID: 0}
   parentNode: {fileID: 4849124798255624432}
   childNode: {fileID: 0}
   isExternalFunc: 0
@@ -199,20 +256,24 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -759.20026
-    y: 413.59988
+    x: -1097.6006
+    y: 186.39952
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: TJ
-    text: I really wish I could just learn at home, but my parents won't understand
-    characterSprite: {fileID: 1248683581, guid: 31c315c5dd7ef404cad1846ad048004c,
+    text: "I really wish I could just stay home, but my parents won\u2019t let me."
+    characterSprite: {fileID: 2038731186, guid: bdad890f06821a44bb8f4a7ff7f86583,
       type: 3}
+    secondSprite: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: 664fd3b0f96d0a747b37670de22f865e, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
   parentNode: {fileID: -5124740251396087372}
   childNode: {fileID: -7203636454171007375}
-  isExternalFunc: 1
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras
 --- !u!114 &3375716951885508619
 MonoBehaviour:
@@ -230,20 +291,24 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 166.39996
-    y: 802.4002
+    x: 9.603363
+    y: 880.7999
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: TJ
-    text: Wow, look at this! Venus will be visible in two months.I need to build
-      the courage to go out and see it.
-    characterSprite: {fileID: 529719049, guid: 5e92483e8d9b40141953af3249408369, type: 3}
-  parentNode: {fileID: 6707554428648621854}
+    characterName: 
+    text: <color=#800080> Too many people are scary.</color>
+    characterSprite: {fileID: -2046987376, guid: 6a080cecf9234ef4e8b331a338caf7eb,
+      type: 3}
+    secondSprite: {fileID: -1114185884, guid: 25b4756bbd9e9d94e9d7512afe8b0fe0, type: 3}
+    audioClip: {fileID: 0}
+    highlightSprite: Left
+    background: {fileID: 0}
+  parentNode: {fileID: -4736262934087076815}
   childNode: {fileID: -1068041405474925473}
-  isExternalFunc: 1
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras
 --- !u!114 &4849124798255624432
 MonoBehaviour:
@@ -261,21 +326,24 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 648.8002
-    y: 386.39996
+    x: 392.00055
+    y: 327.1999
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: TJ
-    text: Sorry, Hektor, I got carried away. Thank you for always supporting me;
-      I love you!
-    characterSprite: {fileID: 1248683581, guid: 31c315c5dd7ef404cad1846ad048004c,
+    text: Sorry, Hektor, I got carried away. Thanks for being my only friend.
+    characterSprite: {fileID: -2046987376, guid: 6a080cecf9234ef4e8b331a338caf7eb,
       type: 3}
+    secondSprite: {fileID: -1114185884, guid: 25b4756bbd9e9d94e9d7512afe8b0fe0, type: 3}
+    audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
   parentNode: {fileID: -7859289151412990518}
   childNode: {fileID: 1369647965101384110}
-  isExternalFunc: 1
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras
 --- !u!114 &5884135816144894790
 MonoBehaviour:
@@ -293,19 +361,24 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -470.39996
-    y: 622.39984
+    x: -949.60065
+    y: 473.6
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: TJ
-    text: Good morning, Hektor! Come here and give me a hug!
-    characterSprite: {fileID: 529719049, guid: 5e92483e8d9b40141953af3249408369, type: 3}
+    text: Good morning, Hektor! Come here and give me love!
+    characterSprite: {fileID: -571449834, guid: 7a894b9741e248d419b47da381638352,
+      type: 3}
+    secondSprite: {fileID: -1114185884, guid: 25b4756bbd9e9d94e9d7512afe8b0fe0, type: 3}
+    audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
   parentNode: {fileID: -7203636454171007375}
   childNode: {fileID: 8076204302508208436}
-  isExternalFunc: 1
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras
 --- !u!114 &6707554428648621854
 MonoBehaviour:
@@ -323,20 +396,24 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -171.20013
-    y: 790.39996
+    x: -427.99902
+    y: 731.1998
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: TJ
-    text: Let's watch the Astronomy channel together
-    characterSprite: {fileID: 1248683581, guid: 31c315c5dd7ef404cad1846ad048004c,
+    text: "Look what\u2019s on the Astronomy channel! We can see Venus in two months."
+    characterSprite: {fileID: -2046987376, guid: 6a080cecf9234ef4e8b331a338caf7eb,
       type: 3}
+    secondSprite: {fileID: -1114185884, guid: 25b4756bbd9e9d94e9d7512afe8b0fe0, type: 3}
+    audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
   parentNode: {fileID: 8076204302508208436}
-  childNode: {fileID: 3375716951885508619}
-  isExternalFunc: 1
+  childNode: {fileID: -4736262934087076815}
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras
 --- !u!114 &8076204302508208436
 MonoBehaviour:
@@ -354,18 +431,21 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -474.39996
-    y: 813.5998
+    x: -732.0011
+    y: 754.39954
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: Hektor
     text: Bzz!
-    characterSprite: {fileID: -1970122269, guid: 39a074fe5976e9044886dd9b40d95fa9,
-      type: 3}
+    characterSprite: {fileID: 363752265, guid: 6ff3be7c1d668b04c8b4b10876ab240d, type: 3}
+    secondSprite: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: c15dd1f96a93633429c44174e57f6891, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
   parentNode: {fileID: 5884135816144894790}
   childNode: {fileID: 6707554428648621854}
-  isExternalFunc: 1
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras

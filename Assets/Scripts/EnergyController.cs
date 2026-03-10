@@ -14,6 +14,7 @@ public class EnergyController : MonoBehaviour
     [SerializeField] private float recoveryDelay = 0.25f; // Nuevo campo para ajustar el retraso
     private float currentEnergy;
     private bool isRecovering = false;
+    private float counter = 0f;
 
     private void OnEnable()
     {
@@ -31,7 +32,14 @@ public class EnergyController : MonoBehaviour
     {
         if (ShouldRecoverEnergy())
         {
-            StartCoroutine(RecoverEnergy());
+            counter +=  Time.deltaTime;
+            if (counter >= recoveryDelay)
+            {
+                currentEnergy += energyRecoveryPerDelay;
+                counter = 0f;
+                //slider.value = currentEnergy;
+            }
+            //StartCoroutine(RecoverEnergy());
         }
     }
 
@@ -52,7 +60,7 @@ public class EnergyController : MonoBehaviour
 
     public bool HasEnergyToFly() => currentEnergy > 0;
 
-    private bool ShouldRecoverEnergy() => playerController != null && slider != null && playerController.IsGrounded() && currentEnergy < maxEnergy && !isRecovering;
+    private bool ShouldRecoverEnergy() => playerController != null && slider != null && playerController.IsGrounded() && currentEnergy < maxEnergy;
 
     private IEnumerator RecoverEnergy()
     {
@@ -65,7 +73,6 @@ public class EnergyController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        //if (slider != null)
         slider.value = currentEnergy;
     }
 

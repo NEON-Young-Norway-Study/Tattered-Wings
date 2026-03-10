@@ -328,10 +328,15 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 48156376210343980, guid: 0bd08184220c9914a877f3a735221e05,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1436196806275566181, guid: 0bd08184220c9914a877f3a735221e05,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -28.819946
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2668789269266758373, guid: 0bd08184220c9914a877f3a735221e05,
         type: 3}
@@ -383,15 +388,56 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4004194884370050749, guid: 0bd08184220c9914a877f3a735221e05,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1606024666, guid: aa99be0572f7ca5409e4de3e2e87eed9,
+        type: 3}
     - target: {fileID: 4825435160123347712, guid: 0bd08184220c9914a877f3a735221e05,
         type: 3}
       propertyPath: m_Name
       value: Dialog Prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6378347020247345163, guid: 0bd08184220c9914a877f3a735221e05,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7250229689785646963, guid: 0bd08184220c9914a877f3a735221e05,
         type: 3}
       propertyPath: dialogCharDelay
-      value: 0.02
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 7250229689785646963, guid: 0bd08184220c9914a877f3a735221e05,
+        type: 3}
+      propertyPath: nextSentenceKeyCodes.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7250229689785646963, guid: 0bd08184220c9914a877f3a735221e05,
+        type: 3}
+      propertyPath: 'nextSentenceKeyCodes.Array.data[2]'
+      value: 323
+      objectReference: {fileID: 0}
+    - target: {fileID: 7275787082578440671, guid: 0bd08184220c9914a877f3a735221e05,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7275787082578440671, guid: 0bd08184220c9914a877f3a735221e05,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7275787082578440671, guid: 0bd08184220c9914a877f3a735221e05,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7929989877327225702, guid: 0bd08184220c9914a877f3a735221e05,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -471,35 +517,61 @@ MonoBehaviour:
   dialogGraph: {fileID: 11400000, guid: b66a21ce82599714295b4529e4d43c16, type: 2}
   autoStartDialogue: 1
   nextSceneOnDialogFinished: 1
-  sceneToLoad: LevelOne
+  sceneToLoad: TLevelOne
   secondImage: {fileID: 318231757}
   characterImage: {fileID: 413159913}
+  background: {fileID: 0}
   sentencesExtras:
-  - dialogueText: 
-    secondSprite: {fileID: 1101576385, guid: 8f13564a130f515469e0e48afdf98133, type: 3}
+  - dialogueText: TJ is getting late
+    secondSprite: {fileID: 1248683581, guid: 31c315c5dd7ef404cad1846ad048004c, type: 3}
     audioClip: {fileID: 8300000, guid: 2319f499495226748a05445c7308534b, type: 3}
     highlightSecondImage: 0
     hideFirstImage: 0
-  - dialogueText: 
-    secondSprite: {fileID: 1101576385, guid: 8f13564a130f515469e0e48afdf98133, type: 3}
+    nextBackground: {fileID: 0}
+    nextEvent: 
+  - dialogueText: I know i know... see you
+    secondSprite: {fileID: 1626126311, guid: a74d6303d0b71d84e979ca0626f8b8c9, type: 3}
     audioClip: {fileID: 8300000, guid: 403652a9055f25f4f863101af74a8d7a, type: 3}
     highlightSecondImage: 1
     hideFirstImage: 0
-  - dialogueText: 
+    nextBackground: {fileID: 0}
+    nextEvent: 
+  - dialogueText: Have a good day!
     secondSprite: {fileID: 1248683581, guid: 31c315c5dd7ef404cad1846ad048004c, type: 3}
     audioClip: {fileID: 8300000, guid: 423601d13abe4804bbc4f7f8dd48bb53, type: 3}
     highlightSecondImage: 0
     hideFirstImage: 0
-  - dialogueText: ...
-    secondSprite: {fileID: -1209915686, guid: f391435fc38cd4242acf10f0d6bbf0ea, type: 3}
+    nextBackground: {fileID: 0}
+    nextEvent: 
+  - dialogueText: I have to got Hektor
+    secondSprite: {fileID: 1248683581, guid: 31c315c5dd7ef404cad1846ad048004c, type: 3}
+    audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
+    highlightSecondImage: 1
+    hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
+  - dialogueText: Bzz, bzzz
+    secondSprite: {fileID: 1248683581, guid: 31c315c5dd7ef404cad1846ad048004c, type: 3}
+    audioClip: {fileID: 8300000, guid: 8f07c40950493334c8b930087e78c789, type: 3}
+    highlightSecondImage: 0
+    hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
+  - dialogueText: (I just wish things were different)
+    secondSprite: {fileID: 1248683581, guid: 31c315c5dd7ef404cad1846ad048004c, type: 3}
     audioClip: {fileID: 0}
     highlightSecondImage: 1
-    hideFirstImage: 1
-  - dialogueText: ...
-    secondSprite: {fileID: 1979803140, guid: 4e3f5b9a32b11254393a0e9d73a9ff75, type: 3}
+    hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
+  - dialogueText: "They\u2019re judging me every time I walk into class, nobody wants
+      to hang out with me."
+    secondSprite: {fileID: 1248683581, guid: 31c315c5dd7ef404cad1846ad048004c, type: 3}
     audioClip: {fileID: 0}
     highlightSecondImage: 1
-    hideFirstImage: 1
+    hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
 --- !u!82 &1053617391
 AudioSource:
   m_ObjectHideFlags: 0

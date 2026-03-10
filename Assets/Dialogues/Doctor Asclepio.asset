@@ -1,0 +1,1198 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8538874221744394515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 3369.5952
+    y: 547.9999
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Dr. Asclepio
+    text: It might feel hard at first, but it will get easier.
+    characterSprite: {fileID: 393688136, guid: 542f93bf2d7349c4cbf7c470be2eec28, type: 3}
+    secondSprite: {fileID: 1110156138, guid: 62a5601e016fc3e4b98b2a8a9b82412b, type: 3}
+    audioClip: {fileID: 8300000, guid: e233b6483ce44b84f9f08aede2fdcbe9, type: 3}
+    highlightSprite: Right
+    background: {fileID: 0}
+  parentNode: {fileID: -6241126545772349769}
+  childNode: {fileID: -4741446329599418763}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &-8016974999007283483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 3970.3945
+    y: 104.79996
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Dr. Asclepio
+    text: I can recommend a therapist who specializes in anxiety. Then you can get
+      even more help.
+    characterSprite: {fileID: -1453400219, guid: 3ec1b84843704824fbe5e3d756d2fb44,
+      type: 3}
+    secondSprite: {fileID: 1948665333, guid: ea4cd63ba44656741855e9b6995f7cf5, type: 3}
+    audioClip: {fileID: 8300000, guid: 9812801d0cddae04e8326c2dae178661, type: 3}
+    highlightSprite: Right
+    background: {fileID: 0}
+  parentNode: {fileID: -2468482941723568873}
+  childNode: {fileID: -3068309555323652071}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &-7060085208080257231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 619.1936
+    y: 463.99976
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Ruby
+    text: Hello, Dr, this is TJ.
+    characterSprite: {fileID: -1453400219, guid: 3ec1b84843704824fbe5e3d756d2fb44,
+      type: 3}
+    secondSprite: {fileID: -1079292517, guid: 897b858df7e08bc4f8fdc778838109b7, type: 3}
+    audioClip: {fileID: 8300000, guid: 423601d13abe4804bbc4f7f8dd48bb53, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
+  parentNode: {fileID: -2959432393261066929}
+  childNode: {fileID: 4139781610742504115}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &-6412566411508358851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 2550.392
+    y: 144.00009
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Dr. Asclepio
+    text: Social anxiety is complex, and it often takes more than just relaxation
+      exercises to feel better. But there are some things that we can do, TJ, to
+      help make things easier for you.
+    characterSprite: {fileID: 752911950, guid: 39ca1e18178ad344ab405782c2a0ce5f, type: 3}
+    secondSprite: {fileID: 1110156138, guid: 62a5601e016fc3e4b98b2a8a9b82412b, type: 3}
+    audioClip: {fileID: 8300000, guid: e233b6483ce44b84f9f08aede2fdcbe9, type: 3}
+    highlightSprite: Right
+    background: {fileID: 0}
+  parentNode: {fileID: 1370520331470134116}
+  childNode: {fileID: -4451506836632711231}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &-6241126545772349769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 3101.6006
+    y: 368.00034
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Dr. Asclepio
+    text: "You inhale through your nose for 4 seconds, hold for 7, and then slowly
+      exhale through your mouth for 8 seconds. It\u2019s like a reset."
+    characterSprite: {fileID: 393688136, guid: 542f93bf2d7349c4cbf7c470be2eec28, type: 3}
+    secondSprite: {fileID: 1110156138, guid: 62a5601e016fc3e4b98b2a8a9b82412b, type: 3}
+    audioClip: {fileID: 8300000, guid: e233b6483ce44b84f9f08aede2fdcbe9, type: 3}
+    highlightSprite: Right
+    background: {fileID: 0}
+  parentNode: {fileID: 2733609003991142048}
+  childNode: {fileID: -8538874221744394515}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-6087603480116304242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1139.1895
+    y: 163.99985
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Dr. Asclepio
+    text: So, your mom says you are having a hard time. Do you want to tell me about
+      it?
+    characterSprite: {fileID: 393688136, guid: 542f93bf2d7349c4cbf7c470be2eec28, type: 3}
+    secondSprite: {fileID: 1110156138, guid: 62a5601e016fc3e4b98b2a8a9b82412b, type: 3}
+    audioClip: {fileID: 8300000, guid: 9812801d0cddae04e8326c2dae178661, type: 3}
+    highlightSprite: Right
+    background: {fileID: 0}
+  parentNode: {fileID: 5144848019358031981}
+  childNode: {fileID: 1541242077880687013}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &-6019028031973823343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 4478.392
+    y: 113.599945
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: "M-maybe\u2026 I\u2019ll\u2026 t-try."
+    characterSprite: {fileID: -865070391, guid: 33e0e9fe5c034f241aa98e3a006f7996,
+      type: 3}
+    secondSprite: {fileID: 900652444, guid: ea30d0de6d6c5384d8164fd8343b1a22, type: 3}
+    audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
+    highlightSprite: Right
+    background: {fileID: 0}
+  parentNode: {fileID: 1250165553871323852}
+  childNode: {fileID: 8781396748382564115}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &-5947580578441186203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 128
+    y: 305.6
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: 2 weeks later...
+    characterSprite: {fileID: 0}
+    secondSprite: {fileID: 0}
+    audioClip: {fileID: 0}
+    highlightSprite: 
+    background: {fileID: 0}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -2959432393261066929}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &-4741446329599418763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 3357.5957
+    y: -67.999954
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: (breathing sound)
+    characterSprite: {fileID: -1976660039, guid: d15488e1223bbbf4fb5801d1277b6132,
+      type: 3}
+    secondSprite: {fileID: 1948665333, guid: ea4cd63ba44656741855e9b6995f7cf5, type: 3}
+    audioClip: {fileID: 8300000, guid: 41f3ee8c828564f40ab867dd777cdada, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
+  parentNode: {fileID: -8538874221744394515}
+  childNode: {fileID: 1182638105039312597}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &-4668099022692684901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1691.189
+    y: 122.400116
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Dr. Asclepio
+    text: "We call that social anxiety. It\u2019s when certain situations, especially
+      around people, make your body react as if there\u2019s danger, even when there\u2019s
+      none."
+    characterSprite: {fileID: 1054310150, guid: 8fba30c7d3ecbd849abe05443485adb1,
+      type: 3}
+    secondSprite: {fileID: 1110156138, guid: 62a5601e016fc3e4b98b2a8a9b82412b, type: 3}
+    audioClip: {fileID: 8300000, guid: 88965c482568af246a012db5f01c13ee, type: 3}
+    highlightSprite: Right
+    background: {fileID: 0}
+  parentNode: {fileID: 2391188660037300804}
+  childNode: {fileID: 7390956237269778837}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &-4451506836632711231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 2637.5918
+    y: 521.59973
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: "O-okay\u2026 so where do we start?"
+    characterSprite: {fileID: 393688136, guid: 542f93bf2d7349c4cbf7c470be2eec28, type: 3}
+    secondSprite: {fileID: 1948665333, guid: ea4cd63ba44656741855e9b6995f7cf5, type: 3}
+    audioClip: {fileID: 8300000, guid: 4c03c2911e929f649aa0491eb6097683, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
+  parentNode: {fileID: -6412566411508358851}
+  childNode: {fileID: 3254283246032025767}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &-3068309555323652071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 4023.9954
+    y: 478.3999
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: A-a therapist...?
+    characterSprite: {fileID: 393688136, guid: 542f93bf2d7349c4cbf7c470be2eec28, type: 3}
+    secondSprite: {fileID: 1948665333, guid: ea4cd63ba44656741855e9b6995f7cf5, type: 3}
+    audioClip: {fileID: 8300000, guid: 4c03c2911e929f649aa0491eb6097683, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
+  parentNode: {fileID: -8016974999007283483}
+  childNode: {fileID: -2534090237116547246}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &-2959432393261066929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 519.1928
+    y: 98.39987
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: (The doorbell rings. Ruby answers and lets Dr. Asclepio in.)
+    characterSprite: {fileID: 0}
+    secondSprite: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: 297584bfd833b8f49869b56a9f4fad31, type: 3}
+    highlightSprite: 
+    background: {fileID: 0}
+  parentNode: {fileID: -5947580578441186203}
+  childNode: {fileID: -7060085208080257231}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &-2534090237116547246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 4213.5923
+    y: 108.799774
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Dr. Asclepio
+    text: "Yes. It may feel scary at first, but a therapist is there to listen, not
+      judge. And they\u2019ll work with you at your pace. You don\u2019t have to
+      do this alone."
+    characterSprite: {fileID: 393688136, guid: 542f93bf2d7349c4cbf7c470be2eec28, type: 3}
+    secondSprite: {fileID: 1110156138, guid: 62a5601e016fc3e4b98b2a8a9b82412b, type: 3}
+    audioClip: {fileID: 8300000, guid: 88965c482568af246a012db5f01c13ee, type: 3}
+    highlightSprite: Right
+    background: {fileID: 0}
+  parentNode: {fileID: -3068309555323652071}
+  childNode: {fileID: 1250165553871323852}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &-2468482941723568873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 3738.3975
+    y: 457.6001
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Ruby
+    text: That makes sense.
+    characterSprite: {fileID: 752911950, guid: 39ca1e18178ad344ab405782c2a0ce5f, type: 3}
+    secondSprite: {fileID: 1948665333, guid: ea4cd63ba44656741855e9b6995f7cf5, type: 3}
+    audioClip: {fileID: 8300000, guid: 423601d13abe4804bbc4f7f8dd48bb53, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
+  parentNode: {fileID: 3151583949472325075}
+  childNode: {fileID: -8016974999007283483}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &-2081801044972771335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 2078.3901
+    y: 539.2002
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: "S-so\u2026 I\u2019m not\u2026 j-just b-bad at s-school?"
+    characterSprite: {fileID: 393688136, guid: 542f93bf2d7349c4cbf7c470be2eec28, type: 3}
+    secondSprite: {fileID: 1948665333, guid: ea4cd63ba44656741855e9b6995f7cf5, type: 3}
+    audioClip: {fileID: 8300000, guid: 4c03c2911e929f649aa0491eb6097683, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
+  parentNode: {fileID: 7290089013070556142}
+  childNode: {fileID: 9221189886428206308}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &-1946490449382345778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1408.7881
+    y: 81.59979
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Dr. Asclepio
+    text: 'That sounds really overwhelming, TJ. '
+    characterSprite: {fileID: 393688136, guid: 542f93bf2d7349c4cbf7c470be2eec28, type: 3}
+    secondSprite: {fileID: 1110156138, guid: 62a5601e016fc3e4b98b2a8a9b82412b, type: 3}
+    audioClip: {fileID: 8300000, guid: 9812801d0cddae04e8326c2dae178661, type: 3}
+    highlightSprite: Right
+    background: {fileID: 0}
+  parentNode: {fileID: 1541242077880687013}
+  childNode: {fileID: 2391188660037300804}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &-715538834544736392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 2879.9907
+    y: 471.99988
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: I l-ike f-lying!
+    characterSprite: {fileID: 393688136, guid: 542f93bf2d7349c4cbf7c470be2eec28, type: 3}
+    secondSprite: {fileID: 1948665333, guid: ea4cd63ba44656741855e9b6995f7cf5, type: 3}
+    audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
+  parentNode: {fileID: 3254283246032025767}
+  childNode: {fileID: 2733609003991142048}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: Doctor Asclepio
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: -2959432393261066929}
+  - {fileID: -7060085208080257231}
+  - {fileID: 4139781610742504115}
+  - {fileID: 5144848019358031981}
+  - {fileID: -6087603480116304242}
+  - {fileID: 1541242077880687013}
+  - {fileID: -1946490449382345778}
+  - {fileID: 2391188660037300804}
+  - {fileID: -4668099022692684901}
+  - {fileID: 7390956237269778837}
+  - {fileID: 7290089013070556142}
+  - {fileID: -2081801044972771335}
+  - {fileID: 9221189886428206308}
+  - {fileID: 1370520331470134116}
+  - {fileID: -6412566411508358851}
+  - {fileID: -4451506836632711231}
+  - {fileID: 3254283246032025767}
+  - {fileID: -715538834544736392}
+  - {fileID: 2733609003991142048}
+  - {fileID: -8538874221744394515}
+  - {fileID: -4741446329599418763}
+  - {fileID: 6394918333952596689}
+  - {fileID: 3151583949472325075}
+  - {fileID: -2468482941723568873}
+  - {fileID: -8016974999007283483}
+  - {fileID: -3068309555323652071}
+  - {fileID: -2534090237116547246}
+  - {fileID: 1250165553871323852}
+  - {fileID: 1182638105039312597}
+  - {fileID: -6019028031973823343}
+  - {fileID: 8781396748382564115}
+  - {fileID: -6241126545772349769}
+  - {fileID: -5947580578441186203}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &1182638105039312597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 3502.398
+    y: 232.0004
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Dr. Asclepio
+    text: Another thing you could try if you feel nervous about talking in class,
+      is practicing first in front of a mirror, this helps you to reduce the pressure.
+    characterSprite: {fileID: 393688136, guid: 542f93bf2d7349c4cbf7c470be2eec28, type: 3}
+    secondSprite: {fileID: 1110156138, guid: 62a5601e016fc3e4b98b2a8a9b82412b, type: 3}
+    audioClip: {fileID: 8300000, guid: 88965c482568af246a012db5f01c13ee, type: 3}
+    highlightSprite: Right
+    background: {fileID: 0}
+  parentNode: {fileID: -4741446329599418763}
+  childNode: {fileID: 6394918333952596689}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &1250165553871323852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 4300.7954
+    y: 464
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Ruby
+    text: Would that feel okay, sweetheart?
+    characterSprite: {fileID: 363619543, guid: 5b64e1812205b8345b7e3234c7c2217b, type: 3}
+    secondSprite: {fileID: 900652444, guid: ea30d0de6d6c5384d8164fd8343b1a22, type: 3}
+    audioClip: {fileID: 8300000, guid: 63348bfcb4a7cc04586e251678d9a61c, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
+  parentNode: {fileID: -2534090237116547246}
+  childNode: {fileID: -6019028031973823343}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &1370520331470134116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 2319.1938
+    y: 502.40054
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Ruby
+    text: "We\u2019ve tried calming him down at home, but it\u2019s still so hard
+      for him."
+    characterSprite: {fileID: 752911950, guid: 39ca1e18178ad344ab405782c2a0ce5f, type: 3}
+    secondSprite: {fileID: 1948665333, guid: ea4cd63ba44656741855e9b6995f7cf5, type: 3}
+    audioClip: {fileID: 8300000, guid: 63348bfcb4a7cc04586e251678d9a61c, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
+  parentNode: {fileID: 9221189886428206308}
+  childNode: {fileID: -6412566411508358851}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &1541242077880687013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1245.5867
+    y: 456.00012
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: "I\u2026 um\u2026 I\u2026 It\u2019s\u2026 j-just, w-when I\u2019m at s-school\u2026I-I
+      c-can\u2019t\u2026 I c-can\u2019t b-breathe. E-everyone\u2019s l-looking, a-and
+      my c-chest\u2026 it h-hurts."
+    characterSprite: {fileID: 393688136, guid: 542f93bf2d7349c4cbf7c470be2eec28, type: 3}
+    secondSprite: {fileID: 1948665333, guid: ea4cd63ba44656741855e9b6995f7cf5, type: 3}
+    audioClip: {fileID: 8300000, guid: 664fd3b0f96d0a747b37670de22f865e, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
+  parentNode: {fileID: -6087603480116304242}
+  childNode: {fileID: -1946490449382345778}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &2391188660037300804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1558.3884
+    y: 476.8004
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: "A-and\u2026 I j-just f-freeze. L-like I c-can\u2019t\u2026 move\u2026
+      or s-say anything."
+    characterSprite: {fileID: 393688136, guid: 542f93bf2d7349c4cbf7c470be2eec28, type: 3}
+    secondSprite: {fileID: 1948665333, guid: ea4cd63ba44656741855e9b6995f7cf5, type: 3}
+    audioClip: {fileID: 8300000, guid: 664fd3b0f96d0a747b37670de22f865e, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
+  parentNode: {fileID: -1946490449382345778}
+  childNode: {fileID: -4668099022692684901}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &2733609003991142048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 3033.5947
+    y: 9.600098
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Dr. Asclepio
+    text: 'Deep breathing can help a lot. You can try the 4-7-8 method. '
+    characterSprite: {fileID: 393688136, guid: 542f93bf2d7349c4cbf7c470be2eec28, type: 3}
+    secondSprite: {fileID: 1110156138, guid: 62a5601e016fc3e4b98b2a8a9b82412b, type: 3}
+    audioClip: {fileID: 8300000, guid: 88965c482568af246a012db5f01c13ee, type: 3}
+    highlightSprite: Right
+    background: {fileID: 0}
+  parentNode: {fileID: -715538834544736392}
+  childNode: {fileID: -6241126545772349769}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &3151583949472325075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 3707.1953
+    y: -35.19995
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Dr. Asclepio
+    text: "Yes, small steps. You\u2019re building confidence with each one. And don\u2019t
+      forget to celebrate the progress, even the small victories. They all count."
+    characterSprite: {fileID: 393688136, guid: 542f93bf2d7349c4cbf7c470be2eec28, type: 3}
+    secondSprite: {fileID: 1948665333, guid: ea4cd63ba44656741855e9b6995f7cf5, type: 3}
+    audioClip: {fileID: 8300000, guid: 9812801d0cddae04e8326c2dae178661, type: 3}
+    highlightSprite: Right
+    background: {fileID: 0}
+  parentNode: {fileID: 6394918333952596689}
+  childNode: {fileID: -2468482941723568873}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &3254283246032025767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 2781.5923
+    y: 73.60004
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Dr. Asclepio
+    text: "Physical exercise. When you move, whether it\u2019s flying or swimming
+      It calms you and lowers your stress."
+    characterSprite: {fileID: 393688136, guid: 542f93bf2d7349c4cbf7c470be2eec28, type: 3}
+    secondSprite: {fileID: 1110156138, guid: 62a5601e016fc3e4b98b2a8a9b82412b, type: 3}
+    audioClip: {fileID: 8300000, guid: 9812801d0cddae04e8326c2dae178661, type: 3}
+    highlightSprite: Right
+    background: {fileID: 0}
+  parentNode: {fileID: -4451506836632711231}
+  childNode: {fileID: -715538834544736392}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &4139781610742504115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 849.58954
+    y: 110.39981
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Dr. Asclepio
+    text: "Hello, TJ. It\u2019s nice to meet you."
+    characterSprite: {fileID: 393688136, guid: 542f93bf2d7349c4cbf7c470be2eec28, type: 3}
+    secondSprite: {fileID: 1960304917, guid: 7a7516e8befd7b5499cf7f5d7b2c4a0b, type: 3}
+    audioClip: {fileID: 8300000, guid: 88965c482568af246a012db5f01c13ee, type: 3}
+    highlightSprite: Right
+    background: {fileID: 0}
+  parentNode: {fileID: -7060085208080257231}
+  childNode: {fileID: 5144848019358031981}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &5144848019358031981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 941.5897
+    y: 474.40027
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: H-hi!
+    characterSprite: {fileID: 393688136, guid: 542f93bf2d7349c4cbf7c470be2eec28, type: 3}
+    secondSprite: {fileID: 1110156138, guid: 62a5601e016fc3e4b98b2a8a9b82412b, type: 3}
+    audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
+  parentNode: {fileID: 4139781610742504115}
+  childNode: {fileID: -6087603480116304242}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &6394918333952596689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 3586.3965
+    y: 725.6
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: "I d-didn\u2019t know it could w-work like that..."
+    characterSprite: {fileID: 393688136, guid: 542f93bf2d7349c4cbf7c470be2eec28, type: 3}
+    secondSprite: {fileID: 1110156138, guid: 62a5601e016fc3e4b98b2a8a9b82412b, type: 3}
+    audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
+  parentNode: {fileID: 1182638105039312597}
+  childNode: {fileID: 3151583949472325075}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &7290089013070556142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1959.189
+    y: 171.99997
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Dr. Asclepio
+    text: 'Likely, yes. Social anxiety is more common than people think, especially
+      for young ones. '
+    characterSprite: {fileID: 752911950, guid: 39ca1e18178ad344ab405782c2a0ce5f, type: 3}
+    secondSprite: {fileID: 1110156138, guid: 62a5601e016fc3e4b98b2a8a9b82412b, type: 3}
+    audioClip: {fileID: 8300000, guid: e233b6483ce44b84f9f08aede2fdcbe9, type: 3}
+    highlightSprite: Right
+    background: {fileID: 0}
+  parentNode: {fileID: 7390956237269778837}
+  childNode: {fileID: -2081801044972771335}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &7390956237269778837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1800.7871
+    y: 502.40054
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Ruby
+    text: "So, that\u2019s why he\u2019s been avoiding school?"
+    characterSprite: {fileID: 719951547, guid: 772cefc1cc866be4db4775c93a59edbb, type: 3}
+    secondSprite: {fileID: 1948665333, guid: ea4cd63ba44656741855e9b6995f7cf5, type: 3}
+    audioClip: {fileID: 8300000, guid: 63348bfcb4a7cc04586e251678d9a61c, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
+  parentNode: {fileID: -4668099022692684901}
+  childNode: {fileID: 7290089013070556142}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &8781396748382564115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 4648.7944
+    y: 492.79993
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Dr. Asclepio
+    text: "Remember, progress takes time. There\u2019s no rush, and every step forward
+      is important."
+    characterSprite: {fileID: -1453400219, guid: 3ec1b84843704824fbe5e3d756d2fb44,
+      type: 3}
+    secondSprite: {fileID: 1110156138, guid: 62a5601e016fc3e4b98b2a8a9b82412b, type: 3}
+    audioClip: {fileID: 8300000, guid: e233b6483ce44b84f9f08aede2fdcbe9, type: 3}
+    highlightSprite: Right
+    background: {fileID: 0}
+  parentNode: {fileID: -6019028031973823343}
+  childNode: {fileID: 0}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &9221189886428206308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 2248.795
+    y: 126.40018
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Dr. Asclepio
+    text: "Not at all, TJ. This isn\u2019t about being bad at school or trying hard
+      enough. It\u2019s just your body responding to stress in a way that feels out
+      of your control. "
+    characterSprite: {fileID: 393688136, guid: 542f93bf2d7349c4cbf7c470be2eec28, type: 3}
+    secondSprite: {fileID: 1110156138, guid: 62a5601e016fc3e4b98b2a8a9b82412b, type: 3}
+    audioClip: {fileID: 8300000, guid: e233b6483ce44b84f9f08aede2fdcbe9, type: 3}
+    highlightSprite: Right
+    background: {fileID: 0}
+  parentNode: {fileID: -2081801044972771335}
+  childNode: {fileID: 1370520331470134116}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras

@@ -1,0 +1,305 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5814872559773122888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 225.60004
+    y: 102.39998
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: "(taking a deep breath and smiling) No need, Mom. I think I\u2019ve got
+      it this time."
+    characterSprite: {fileID: 1954841127, guid: 82e5951751e25e9458b14c08a946abcc,
+      type: 3}
+    secondSprite: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
+  parentNode: {fileID: 2655212846660629005}
+  childNode: {fileID: 415384683431996341}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &-5790013784732844932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 551.99915
+    y: 171.99988
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: "Thanks, Mom. I\u2019ll see you after school."
+    characterSprite: {fileID: -996760719, guid: 3fd16c53547e5f142b00f0d386740c96,
+      type: 3}
+    secondSprite: {fileID: -2046987376, guid: 6a080cecf9234ef4e8b331a338caf7eb, type: 3}
+    audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
+    highlightSprite: Right
+    background: {fileID: 0}
+  parentNode: {fileID: 415384683431996341}
+  childNode: {fileID: -1610730387671822225}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &-5429189696367314470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -119.1998
+    y: 71.20001
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: (TJ and Ruby are in front of the school gates, the morning sun shining
+      brightly.)
+    characterSprite: {fileID: 0}
+    secondSprite: {fileID: 0}
+    audioClip: {fileID: 0}
+    highlightSprite: 
+    background: {fileID: 0}
+  parentNode: {fileID: 768938719910820983}
+  childNode: {fileID: 2655212846660629005}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &-1610730387671822225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 684.7981
+    y: 464.80023
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Ruby
+    text: "Have a great day! And don\u2019t forget your archery training later."
+    characterSprite: {fileID: 1186460590, guid: f0335acbe97689f4f8596ee51d662a2a,
+      type: 3}
+    secondSprite: {fileID: -571449834, guid: 7a894b9741e248d419b47da381638352, type: 3}
+    audioClip: {fileID: 8300000, guid: 423601d13abe4804bbc4f7f8dd48bb53, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
+  parentNode: {fileID: -5790013784732844932}
+  childNode: {fileID: 2229216927659292387}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33f741ea10ebcf842a91c9b871dd032a, type: 3}
+  m_Name: EndDialogue
+  m_EditorClassIdentifier: 
+  nodesList:
+  - {fileID: -5429189696367314470}
+  - {fileID: 2655212846660629005}
+  - {fileID: -5814872559773122888}
+  - {fileID: 415384683431996341}
+  - {fileID: -5790013784732844932}
+  - {fileID: -1610730387671822225}
+  - {fileID: 2229216927659292387}
+  - {fileID: 768938719910820983}
+  nodeToDrawLineFrom: {fileID: 0}
+  linePosition: {x: 0, y: 0}
+--- !u!114 &415384683431996341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 299.19977
+    y: 392.80005
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Ruby
+    text: "That\u2019s my brave boy. You\u2019ve come so far\u2014I\u2019m so proud
+      of you."
+    characterSprite: {fileID: -996760719, guid: 3fd16c53547e5f142b00f0d386740c96,
+      type: 3}
+    secondSprite: {fileID: -2046987376, guid: 6a080cecf9234ef4e8b331a338caf7eb, type: 3}
+    audioClip: {fileID: 8300000, guid: 423601d13abe4804bbc4f7f8dd48bb53, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
+  parentNode: {fileID: -5814872559773122888}
+  childNode: {fileID: -5790013784732844932}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &768938719910820983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: -490.40002
+    y: 149.59998
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: Six months later...
+    characterSprite: {fileID: 0}
+    secondSprite: {fileID: 0}
+    audioClip: {fileID: 0}
+    highlightSprite: 
+    background: {fileID: 0}
+  parentNode: {fileID: 0}
+  childNode: {fileID: -5429189696367314470}
+  isExternalFunc: 0
+  externalFunctionName: 
+--- !u!114 &2229216927659292387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 919.99835
+    y: 155.20001
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: 
+    text: (TJ waves, then walks into the school with a newfound confidence)
+    characterSprite: {fileID: 0}
+    secondSprite: {fileID: 0}
+    audioClip: {fileID: 0}
+    highlightSprite: 
+    background: {fileID: 0}
+  parentNode: {fileID: -1610730387671822225}
+  childNode: {fileID: 0}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &2655212846660629005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 24.799988
+    y: 401.60016
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Ruby
+    text: "Here we are, sweetheart. I\u2019ll walk you to the door, just like always."
+    characterSprite: {fileID: 1954841127, guid: 82e5951751e25e9458b14c08a946abcc,
+      type: 3}
+    secondSprite: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: 63348bfcb4a7cc04586e251678d9a61c, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
+  parentNode: {fileID: -5429189696367314470}
+  childNode: {fileID: -5814872559773122888}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras

@@ -23,6 +23,10 @@ namespace cherrydev
 
         private const float externalNodeHeight = 155f;
 
+        // Opciones para el dropdown
+        private string[] dropdownOptions = new string[] { "Left", "Right", "Both" };
+        private int selectedOptionIndex = 0;
+
         /// <summary>
         /// Returning external function name
         /// </summary>
@@ -69,6 +73,45 @@ namespace cherrydev
             return sentence.characterSprite;
         }
 
+
+        /// <summary>
+        /// Returning second sprite of character if applicable
+        /// </summary>
+        /// <returns></returns>
+        public Sprite GetSecondSprite()
+        {
+            return sentence.secondSprite;
+        }
+
+        /// <summary>
+        /// Returning second sprite of character if applicable
+        /// </summary>
+        /// <returns></returns>
+        public AudioClip GetAudioClip()
+        {
+            return sentence.audioClip;
+        }
+
+        /// <summary>
+        /// Returns the value of a highlightSprite field
+        /// </summary>
+        /// <returns></returns>
+        public string GetHighlightSprite()
+        {
+            return sentence.highlightSprite;
+        }
+
+        /// <summary>
+        /// Returning second sprite of character if applicable
+        /// </summary>
+        /// <returns></returns>
+        public Sprite GetBackground()
+        {
+            return sentence.background;
+        }
+
+
+
         /// <summary>
         /// Returns the value of a isExternalFunc boolean field
         /// </summary>
@@ -89,6 +132,8 @@ namespace cherrydev
         {
             base.Draw(nodeStyle, lableStyle);
 
+            rect.height += 100f;
+
             GUILayout.BeginArea(rect, nodeStyle);
 
             EditorGUILayout.LabelField("Sentence Node", lableStyle);
@@ -96,6 +141,11 @@ namespace cherrydev
             DrawCharacterNameFieldHorizontal();
             DrawSentenceTextFieldHorizontal();
             DrawCharacterSpriteHorizontal();
+            DrawSecondSpriteHorizontal();
+            DrawBackgroundHorizontal();
+            DrawHighlightSpriteHorizontal();
+            DrawAudioClipHorizontal();
+
             DrawExternalFunctionTextField();
 
             if (GUILayout.Button(externalButtonLable))
@@ -172,7 +222,7 @@ namespace cherrydev
         public void CheckNodeSize(float width, float height)
         {
             rect.width = width;
-            
+
             if (standartHeight == 0)
             {
                 standartHeight = height;
@@ -262,6 +312,45 @@ namespace cherrydev
             }
 
             return true;
+        }
+
+
+        /// <summary>
+        /// Draw label and text fields for char sprite
+        /// </summary>
+        private void DrawAudioClipHorizontal()
+        {
+            EditorGUILayout.BeginHorizontal();
+            EditorGUILayout.LabelField($"AudioClip ", GUILayout.Width(lableFieldSpace));
+            sentence.audioClip = (AudioClip)EditorGUILayout.ObjectField(sentence.audioClip,
+                typeof(AudioClip), false, GUILayout.Width(textFieldWidth));
+            EditorGUILayout.EndHorizontal();
+        }
+
+        private void DrawSecondSpriteHorizontal()
+        {
+            EditorGUILayout.BeginHorizontal();
+            EditorGUILayout.LabelField($"2nd Sprite ", GUILayout.Width(lableFieldSpace));
+            sentence.secondSprite = (Sprite)EditorGUILayout.ObjectField(sentence.secondSprite,
+                typeof(Sprite), false, GUILayout.Width(textFieldWidth));
+            EditorGUILayout.EndHorizontal();
+        }
+
+        private void DrawBackgroundHorizontal()
+        {
+            EditorGUILayout.BeginHorizontal();
+            EditorGUILayout.LabelField($"Background ", GUILayout.Width(lableFieldSpace));
+            sentence.background = (Sprite)EditorGUILayout.ObjectField(sentence.background,
+                typeof(Sprite), false, GUILayout.Width(textFieldWidth));
+            EditorGUILayout.EndHorizontal();
+        }
+
+        private void DrawHighlightSpriteHorizontal()
+        {
+            EditorGUILayout.BeginHorizontal();
+            EditorGUILayout.LabelField($"Hightlight Sprite ", GUILayout.Width(lableFieldSpace));
+            sentence.highlightSprite = EditorGUILayout.TextField(sentence.highlightSprite, GUILayout.Width(textFieldWidth));
+            EditorGUILayout.EndHorizontal();
         }
 
 #endif

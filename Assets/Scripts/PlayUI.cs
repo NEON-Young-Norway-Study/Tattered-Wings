@@ -11,14 +11,16 @@ public class PlayUI : MonoBehaviour
     [SerializeField] private GameObject energySlider;
     [SerializeField] private GameObject jumpButton;
     private VirtualJoystick virtualJoystick;
+    private Vector3 jumpButtonPosition;
 
     public delegate void JumpButton(); // Definir el tipo de delegado para el evento
     public static event JumpButton OnJumpButtonPressed; // El evento estático al que otros scripts pueden suscribirse
-
+    
 
     private void Start()
     {
         virtualJoystick = nativeJoystick.GetComponent<VirtualJoystick>();
+        jumpButtonPosition = jumpButton.GetComponent<RectTransform>().anchoredPosition;
         if (pauseMenu == null) 
             Debug.LogWarning("Pause Menu is not set in the inspector");
         
@@ -82,18 +84,29 @@ public class PlayUI : MonoBehaviour
     }
 
 
+
     public void SetJoystickLeft()
     {
         virtualJoystick.enabled = false;
-        nativeJoystick.anchoredPosition = new Vector2(210, 203);
+        nativeJoystick.anchoredPosition = new Vector2(372, 98);
         virtualJoystick.enabled = true;
     }
 
     public void SetJoystickRight()
     {
         virtualJoystick.enabled = false;
-        nativeJoystick.anchoredPosition = new Vector2(1640, 203);
+        nativeJoystick.anchoredPosition = new Vector2(1691, 98);
         virtualJoystick.enabled = true;
+    }
+
+    public void SetJumpButtonLeft()
+    {
+        jumpButton.GetComponent<RectTransform>().anchoredPosition = new Vector2(-1729, 98);
+    }
+
+    public void SetJumpButtonRight()
+    {
+        jumpButton.GetComponent<RectTransform>().anchoredPosition = new Vector2(-405, 98);
     }
 
     public void JumpButtonPressed()

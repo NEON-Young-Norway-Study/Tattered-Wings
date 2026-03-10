@@ -16,20 +16,23 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1576.8002
-    y: 207.99957
+    x: -1666.4006
+    y: 219.9997
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: TJ
-    text: "\u2026Fiuu\u2026 It's over now. I was shaking just by hearing his voice"
-    characterSprite: {fileID: 2016525513, guid: eaf71d551a25acc47b1476117558526e,
-      type: 3}
+    text: "\u2026Fiuu\u2026 It's over now. I was shaking just by hearing his voice."
+    characterSprite: {fileID: 900652444, guid: ea30d0de6d6c5384d8164fd8343b1a22, type: 3}
+    secondSprite: {fileID: -1114185884, guid: 25b4756bbd9e9d94e9d7512afe8b0fe0, type: 3}
+    audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
   parentNode: {fileID: 0}
   childNode: {fileID: -7391384910845322222}
-  isExternalFunc: 1
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras
 --- !u!114 &-7391384910845322222
 MonoBehaviour:
@@ -47,20 +50,24 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1204.8005
-    y: 231.19957
+    x: -1294.4006
+    y: 243.19977
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: TJ
-    text: Thank you, Hektor!, for helping me to communicate with that bird!
-    characterSprite: {fileID: -1000162966, guid: 735d92e31e6a4b84b8e2854100b4eec7,
+    text: Thank you, Hektor!, for helping me to talk to that bird!
+    characterSprite: {fileID: 1992439587, guid: f2bb5f2a7f9d6d94499dc0c101ef128b,
       type: 3}
+    secondSprite: {fileID: 220250154, guid: 4ee67c725033bc746b345fdd745a7d64, type: 3}
+    audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
   parentNode: {fileID: -8552540572296445783}
   childNode: {fileID: 2967993187830343460}
-  isExternalFunc: 1
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras
 --- !u!114 &-6984641058172681176
 MonoBehaviour:
@@ -78,20 +85,23 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 238.40396
-    y: 206.3995
+    x: 148.8025
+    y: 218.39966
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: TJ
-    text: I wonder How much I should endure these overwhelming feelings
-    characterSprite: {fileID: -1000162966, guid: 735d92e31e6a4b84b8e2854100b4eec7,
-      type: 3}
+    text: I wonder how I can handle all these overwhelming feelings.
+    characterSprite: {fileID: 900652444, guid: ea30d0de6d6c5384d8164fd8343b1a22, type: 3}
+    secondSprite: {fileID: 220250154, guid: 4ee67c725033bc746b345fdd745a7d64, type: 3}
+    audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
   parentNode: {fileID: 6635162609298422789}
   childNode: {fileID: 8825926576671166626}
-  isExternalFunc: 1
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras
 --- !u!114 &11400000
 MonoBehaviour:
@@ -132,20 +142,23 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -265.59885
-    y: 195.19954
+    x: -355.20044
+    y: 207.1997
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: Hektor
-    text: Bzzzz, bzz
-    characterSprite: {fileID: 2016525513, guid: eaf71d551a25acc47b1476117558526e,
-      type: 3}
+    text: Bzzzz, bzz!
+    characterSprite: {fileID: 900652444, guid: ea30d0de6d6c5384d8164fd8343b1a22, type: 3}
+    secondSprite: {fileID: 220250154, guid: 4ee67c725033bc746b345fdd745a7d64, type: 3}
+    audioClip: {fileID: 8300000, guid: 567a91b2671c7c04880b473758cd25b2, type: 3}
+    highlightSprite: Right
+    background: {fileID: 0}
   parentNode: {fileID: 4625458252690311071}
   childNode: {fileID: 6635162609298422789}
-  isExternalFunc: 1
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras
 --- !u!114 &2967993187830343460
 MonoBehaviour:
@@ -163,20 +176,24 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -896.80005
-    y: 250.39929
+    x: -986.4002
+    y: 262.39954
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: Hektor
     text: Bz, bzz, bzzz!
-    characterSprite: {fileID: -1000162966, guid: 735d92e31e6a4b84b8e2854100b4eec7,
+    characterSprite: {fileID: 1992439587, guid: f2bb5f2a7f9d6d94499dc0c101ef128b,
       type: 3}
+    secondSprite: {fileID: 220250154, guid: 4ee67c725033bc746b345fdd745a7d64, type: 3}
+    audioClip: {fileID: 8300000, guid: c15dd1f96a93633429c44174e57f6891, type: 3}
+    highlightSprite: Right
+    background: {fileID: 0}
   parentNode: {fileID: -7391384910845322222}
   childNode: {fileID: 4625458252690311071}
-  isExternalFunc: 1
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras
 --- !u!114 &4625458252690311071
 MonoBehaviour:
@@ -194,20 +211,23 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -560.79926
-    y: 250.39954
+    x: -650.4001
+    y: 262.39978
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: TJ
-    text: "There, there, friend\u2026 Take a honey cookie"
-    characterSprite: {fileID: -1000162966, guid: 735d92e31e6a4b84b8e2854100b4eec7,
-      type: 3}
+    text: "There, there, friend\u2026 Take a honey cookie. "
+    characterSprite: {fileID: 900652444, guid: ea30d0de6d6c5384d8164fd8343b1a22, type: 3}
+    secondSprite: {fileID: 1381349943, guid: 86e78a50d94bf0445bf742177c642d1e, type: 3}
+    audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
   parentNode: {fileID: 2967993187830343460}
   childNode: {fileID: 2103456007406285512}
-  isExternalFunc: 1
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras
 --- !u!114 &6635162609298422789
 MonoBehaviour:
@@ -225,20 +245,23 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -33.597473
-    y: 202.39952
+    x: -123.1992
+    y: 214.39966
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: TJ
-    text: Haha, look at you so happy, turning around!...
-    characterSprite: {fileID: 2016525513, guid: eaf71d551a25acc47b1476117558526e,
-      type: 3}
+    text: Haha, look at you so happy, buzzing around!...
+    characterSprite: {fileID: 900652444, guid: ea30d0de6d6c5384d8164fd8343b1a22, type: 3}
+    secondSprite: {fileID: 220250154, guid: 4ee67c725033bc746b345fdd745a7d64, type: 3}
+    audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
   parentNode: {fileID: 2103456007406285512}
   childNode: {fileID: -6984641058172681176}
-  isExternalFunc: 1
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras
 --- !u!114 &8825926576671166626
 MonoBehaviour:
@@ -256,18 +279,21 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 481.60544
-    y: 183.99947
+    x: 392.00482
+    y: 195.9997
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: TJ
-    text: "For now, let\u2019s go home and rest.."
-    characterSprite: {fileID: -1797342823, guid: 77e718a925436cf4190fc85ff7304e7a,
-      type: 3}
+    text: "For now, let\u2019s go home and rest..."
+    characterSprite: {fileID: 900652444, guid: ea30d0de6d6c5384d8164fd8343b1a22, type: 3}
+    secondSprite: {fileID: -1114185884, guid: 25b4756bbd9e9d94e9d7512afe8b0fe0, type: 3}
+    audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
   parentNode: {fileID: -6984641058172681176}
   childNode: {fileID: 0}
-  isExternalFunc: 1
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras

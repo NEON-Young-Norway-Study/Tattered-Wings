@@ -269,7 +269,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -1731120377, guid: 6719b1caf5a393242a6462e3f45e9210,
+      objectReference: {fileID: -56788832, guid: 34b10bba968a4f0418a5add3c1b6a1fc,
         type: 3}
     - target: {fileID: 4004194884370050749, guid: 0bd08184220c9914a877f3a735221e05,
         type: 3}
@@ -286,6 +286,16 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4004194884370050749, guid: 0bd08184220c9914a877f3a735221e05,
+        type: 3}
+      propertyPath: m_Maskable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4004194884370050749, guid: 0bd08184220c9914a877f3a735221e05,
+        type: 3}
+      propertyPath: m_RaycastTarget
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4116436653686987360, guid: 0bd08184220c9914a877f3a735221e05,
         type: 3}
       propertyPath: m_Camera
@@ -296,10 +306,20 @@ PrefabInstance:
       propertyPath: m_RenderMode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4505670039013383727, guid: 0bd08184220c9914a877f3a735221e05,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 247.3
+      objectReference: {fileID: 0}
     - target: {fileID: 4825435160123347712, guid: 0bd08184220c9914a877f3a735221e05,
         type: 3}
       propertyPath: m_Name
       value: Dialog Prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 4825435160123347712, guid: 0bd08184220c9914a877f3a735221e05,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7250229689785646963, guid: 0bd08184220c9914a877f3a735221e05,
         type: 3}
@@ -402,70 +422,95 @@ MonoBehaviour:
   dialogGraph: {fileID: 11400000, guid: 3b4c2e37554d073439355997adb39d5d, type: 2}
   autoStartDialogue: 1
   nextSceneOnDialogFinished: 1
-  sceneToLoad: Continue
+  sceneToLoad: TJRoom Evening
   secondImage: {fileID: 1560933097}
   characterImage: {fileID: 1784408688}
+  background: {fileID: 0}
   sentencesExtras:
   - dialogueText: ..Fiuu
     secondSprite: {fileID: 1544103959, guid: 405d96ad742b71a4ebc0118f36c7853b, type: 3}
     audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
     highlightSecondImage: 0
     hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
   - dialogueText: Thank you, Hektor!
     secondSprite: {fileID: -1603123972, guid: ce22b1e2c520a6b4baaa859a3c770e92, type: 3}
     audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
     highlightSecondImage: 0
     hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
   - dialogueText: Bz, bzz, bzzz!
     secondSprite: {fileID: 850726942, guid: 31999b51577db69479839aaa6b814e4b, type: 3}
     audioClip: {fileID: 8300000, guid: 64b2b19270a52e14fb314a0be5b2feb6, type: 3}
     highlightSecondImage: 1
     hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
   - dialogueText: There there friend
     secondSprite: {fileID: 850726942, guid: 31999b51577db69479839aaa6b814e4b, type: 3}
     audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
     highlightSecondImage: 0
     hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
   - dialogueText: Bzzz, bzz
     secondSprite: {fileID: 850726942, guid: 31999b51577db69479839aaa6b814e4b, type: 3}
     audioClip: {fileID: 8300000, guid: 8f07c40950493334c8b930087e78c789, type: 3}
     highlightSecondImage: 1
     hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
   - dialogueText: Haha look at you
     secondSprite: {fileID: 850726942, guid: 31999b51577db69479839aaa6b814e4b, type: 3}
     audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
     highlightSecondImage: 0
     hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
   - dialogueText: There, there
     secondSprite: {fileID: -1603123972, guid: ce22b1e2c520a6b4baaa859a3c770e92, type: 3}
     audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
     highlightSecondImage: 0
     hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
   - dialogueText: Take a honey cookie
     secondSprite: {fileID: 0}
     audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
     highlightSecondImage: 0
     hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
   - dialogueText: Bzz
     secondSprite: {fileID: 0}
     audioClip: {fileID: 8300000, guid: 64b2b19270a52e14fb314a0be5b2feb6, type: 3}
     highlightSecondImage: 0
     hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
   - dialogueText: Haha, look at you
     secondSprite: {fileID: -1603123972, guid: ce22b1e2c520a6b4baaa859a3c770e92, type: 3}
     audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
     highlightSecondImage: 0
     hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
   - dialogueText: I wonder How much I should endure these overwhelming feelings .
     secondSprite: {fileID: -1603123972, guid: ce22b1e2c520a6b4baaa859a3c770e92, type: 3}
     audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
     highlightSecondImage: 0
     hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
   - dialogueText: For now, let's
     secondSprite: {fileID: 0}
     audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
     highlightSecondImage: 0
     hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
 --- !u!82 &1053617391
 AudioSource:
   m_ObjectHideFlags: 0
@@ -677,7 +722,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1672797222}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
   m_Name: 
@@ -884,8 +929,8 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 200738042050637178, guid: bd08c142bf2cef34a8156c21c20ac6c5,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: ca14e822c3d05324ea7908ec4503cc9e, type: 3}
-  m_Resource: {fileID: 8300000, guid: ca14e822c3d05324ea7908ec4503cc9e, type: 3}
+  m_audioClip: {fileID: 8300000, guid: eb4d42c27e2c44049b64fa81214269c3, type: 3}
+  m_Resource: {fileID: 8300000, guid: eb4d42c27e2c44049b64fa81214269c3, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.1
   m_Pitch: 1

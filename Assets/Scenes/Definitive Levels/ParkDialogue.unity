@@ -316,10 +316,15 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 966172848043998362, guid: 0bd08184220c9914a877f3a735221e05,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 44.182617
+      objectReference: {fileID: 0}
     - target: {fileID: 1436196806275566181, guid: 0bd08184220c9914a877f3a735221e05,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -28.820068
+      value: -28.820312
       objectReference: {fileID: 0}
     - target: {fileID: 2668789269266758373, guid: 0bd08184220c9914a877f3a735221e05,
         type: 3}
@@ -371,11 +376,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2930120186622512566, guid: 0bd08184220c9914a877f3a735221e05,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 233062992, guid: c05786ae5ebb21343aa9ee5aaf48df99,
+        type: 3}
     - target: {fileID: 4004194884370050749, guid: 0bd08184220c9914a877f3a735221e05,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -1731120377, guid: 6719b1caf5a393242a6462e3f45e9210,
+      objectReference: {fileID: -56788832, guid: 34b10bba968a4f0418a5add3c1b6a1fc,
         type: 3}
     - target: {fileID: 4004194884370050749, guid: 0bd08184220c9914a877f3a735221e05,
         type: 3}
@@ -400,17 +411,17 @@ PrefabInstance:
     - target: {fileID: 9198993882433154880, guid: 0bd08184220c9914a877f3a735221e05,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.690566
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9198993882433154880, guid: 0bd08184220c9914a877f3a735221e05,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.014332486
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9198993882433154880, guid: 0bd08184220c9914a877f3a735221e05,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.21661516
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -505,177 +516,223 @@ MonoBehaviour:
   sceneToLoad: ParkDialogueEnd
   secondImage: {fileID: 413159913}
   characterImage: {fileID: 413159914}
+  background: {fileID: 0}
   sentencesExtras:
   - dialogueText: Bzz, bzzzzzzzz.
     secondSprite: {fileID: -1530793035, guid: aee9678fe41091a42b0a199cb2b598bd, type: 3}
     audioClip: {fileID: 8300000, guid: 64b2b19270a52e14fb314a0be5b2feb6, type: 3}
     highlightSecondImage: 0
     hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
   - dialogueText: 'Wow, you found a friend! '
     secondSprite: {fileID: -1530793035, guid: aee9678fe41091a42b0a199cb2b598bd, type: 3}
     audioClip: {fileID: 8300000, guid: 4c03c2911e929f649aa0491eb6097683, type: 3}
     highlightSecondImage: 0
     hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
   - dialogueText: 'Hello, little one! What are you doing here? '
     secondSprite: {fileID: -1530793035, guid: aee9678fe41091a42b0a199cb2b598bd, type: 3}
     audioClip: {fileID: 8300000, guid: 4c03c2911e929f649aa0491eb6097683, type: 3}
     highlightSecondImage: 0
     hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
   - dialogueText: Bzzzzzz.
     secondSprite: {fileID: -1530793035, guid: aee9678fe41091a42b0a199cb2b598bd, type: 3}
     audioClip: {fileID: 8300000, guid: 8f07c40950493334c8b930087e78c789, type: 3}
     highlightSecondImage: 1
     hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
   - dialogueText: "Oh, I see. You\u2019re lost\u2026"
     secondSprite: {fileID: -1530793035, guid: aee9678fe41091a42b0a199cb2b598bd, type: 3}
     audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
     highlightSecondImage: 0
     hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
   - dialogueText: "We\u2019ll help you find your family."
     secondSprite: {fileID: -1530793035, guid: aee9678fe41091a42b0a199cb2b598bd, type: 3}
     audioClip: {fileID: 8300000, guid: 4c03c2911e929f649aa0491eb6097683, type: 3}
     highlightSecondImage: 0
     hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
   - dialogueText: Bz, bzz.
     secondSprite: {fileID: -1530793035, guid: aee9678fe41091a42b0a199cb2b598bd, type: 3}
     audioClip: {fileID: 8300000, guid: 64b2b19270a52e14fb314a0be5b2feb6, type: 3}
     highlightSecondImage: 0
     hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
   - dialogueText: ' I can see a bird flying towards us.'
     secondSprite: {fileID: -2038193729, guid: d8e77581449728a49b02ba7af7ebad0c, type: 3}
     audioClip: {fileID: 8300000, guid: 4c03c2911e929f649aa0491eb6097683, type: 3}
     highlightSecondImage: 0
     hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
   - dialogueText: "(I don\u2019t feel prepared for this\u2026)"
     secondSprite: {fileID: -2038193729, guid: d8e77581449728a49b02ba7af7ebad0c, type: 3}
     audioClip: {fileID: 8300000, guid: 664fd3b0f96d0a747b37670de22f865e, type: 3}
     highlightSecondImage: 0
     hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
   - dialogueText: Bz, bzzz, bz.
     secondSprite: {fileID: 1544103959, guid: 405d96ad742b71a4ebc0118f36c7853b, type: 3}
     audioClip: {fileID: 8300000, guid: 64b2b19270a52e14fb314a0be5b2feb6, type: 3}
     highlightSecondImage: 1
     hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
   - dialogueText: Bz, bzzz, bz. (Hektor rubs against TJ's wings)
     secondSprite: {fileID: 0}
     audioClip: {fileID: 8300000, guid: 64b2b19270a52e14fb314a0be5b2feb6, type: 3}
     highlightSecondImage: 0
     hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
   - dialogueText: Thank you for comforting me, Hektor.
     secondSprite: {fileID: 0}
     audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
     highlightSecondImage: 0
     hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
   - dialogueText: 'Monaaaaard! Monaaaard! '
     secondSprite: {fileID: 37647835, guid: c63581675d36c8143a3ec589753c70f4, type: 3}
     audioClip: {fileID: 8300000, guid: dc6c5302e7f42094681cb0d03e567b41, type: 3}
     highlightSecondImage: 1
     hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
   - dialogueText: 'Here you are! '
     secondSprite: {fileID: -993278976, guid: 52cd450adbd4b4d46a8996f51fedf242, type: 3}
     audioClip: {fileID: 8300000, guid: 2b3a6fba15af09e47b82fb5cfa809ed3, type: 3}
     highlightSecondImage: 1
     hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
   - dialogueText: ' Why did you run away? '
     secondSprite: {fileID: 568753464, guid: f1e06f6253649f348bf5ebc4c6e9800f, type: 3}
     audioClip: {fileID: 8300000, guid: dc6c5302e7f42094681cb0d03e567b41, type: 3}
     highlightSecondImage: 1
     hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
   - dialogueText: 'Bzz. '
     secondSprite: {fileID: -993278976, guid: 52cd450adbd4b4d46a8996f51fedf242, type: 3}
     audioClip: {fileID: 8300000, guid: 8f07c40950493334c8b930087e78c789, type: 3}
     highlightSecondImage: 0
     hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
   - dialogueText: 'Hello, kid! '
     secondSprite: {fileID: 568753464, guid: f1e06f6253649f348bf5ebc4c6e9800f, type: 3}
     audioClip: {fileID: 8300000, guid: 2b3a6fba15af09e47b82fb5cfa809ed3, type: 3}
     highlightSecondImage: 1
     hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
   - dialogueText: "(I\u2019m scared\u2026 I feel like flying away\u2026)"
     secondSprite: {fileID: 568753464, guid: f1e06f6253649f348bf5ebc4c6e9800f, type: 3}
     audioClip: {fileID: 8300000, guid: 664fd3b0f96d0a747b37670de22f865e, type: 3}
     highlightSecondImage: 0
     hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
   - dialogueText: Bzz.
     secondSprite: {fileID: -1603123972, guid: ce22b1e2c520a6b4baaa859a3c770e92, type: 3}
     audioClip: {fileID: 8300000, guid: 8f07c40950493334c8b930087e78c789, type: 3}
     highlightSecondImage: 1
     hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
   - dialogueText: (Hektor climbs
     secondSprite: {fileID: 0}
     audioClip: {fileID: 8300000, guid: e20f52267d2ce5849aa8a70454328a67, type: 3}
     highlightSecondImage: 0
     hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
   - dialogueText: (TJ Breathes
     secondSprite: {fileID: 0}
     audioClip: {fileID: 8300000, guid: 664fd3b0f96d0a747b37670de22f865e, type: 3}
     highlightSecondImage: 0
     hideFirstImage: 0
-  - dialogueText: ..Helo, mister
+    nextBackground: {fileID: 0}
+    nextEvent: 
+  - dialogueText: "\u2026H-hello, m-mister"
     secondSprite: {fileID: -993278976, guid: 52cd450adbd4b4d46a8996f51fedf242, type: 3}
     audioClip: {fileID: 8300000, guid: 4c03c2911e929f649aa0491eb6097683, type: 3}
     highlightSecondImage: 0
     hideFirstImage: 0
-  - dialogueText: Haha, what a respectful
-    secondSprite: {fileID: 568753464, guid: f1e06f6253649f348bf5ebc4c6e9800f, type: 3}
+    nextBackground: {fileID: 0}
+    nextEvent: 
+  - dialogueText: 'I hope my bee did not trouble you kid! Monarde got scared by a
+      spider and ran away. '
+    secondSprite: {fileID: -993278976, guid: 52cd450adbd4b4d46a8996f51fedf242, type: 3}
     audioClip: {fileID: 8300000, guid: 2b3a6fba15af09e47b82fb5cfa809ed3, type: 3}
     highlightSecondImage: 1
     hideFirstImage: 0
-  - dialogueText: 'Yes, Monardde '
-    secondSprite: {fileID: 568753464, guid: f1e06f6253649f348bf5ebc4c6e9800f, type: 3}
+    nextBackground: {fileID: 0}
+    nextEvent: 
+  - dialogueText: Wow! look at that, your bee is so Fluffy and radiant. What conditioner
+      do you use to bathe it?
+    secondSprite: {fileID: -993278976, guid: 52cd450adbd4b4d46a8996f51fedf242, type: 3}
     audioClip: {fileID: 8300000, guid: 2b3a6fba15af09e47b82fb5cfa809ed3, type: 3}
     highlightSecondImage: 1
     hideFirstImage: 0
-  - dialogueText: 'I''m happy that '
-    secondSprite: {fileID: 568753464, guid: f1e06f6253649f348bf5ebc4c6e9800f, type: 3}
-    audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
-    highlightSecondImage: 0
-    hideFirstImage: 0
-  - dialogueText: It seems that
+    nextBackground: {fileID: 0}
+    nextEvent: 
+  - dialogueText: "I.-It\u2019s th-e fo.. "
     secondSprite: {fileID: -993278976, guid: 52cd450adbd4b4d46a8996f51fedf242, type: 3}
     audioClip: {fileID: 8300000, guid: 4c03c2911e929f649aa0491eb6097683, type: 3}
     highlightSecondImage: 0
     hideFirstImage: 0
-  - dialogueText: Bzz, bz
+    nextBackground: {fileID: 0}
+    nextEvent: 
+  - dialogueText: Hektor approaches to TJ and steals a snack from his pocket, then
+      he went to aster and showed the stolen cookie proudly and eat it
     secondSprite: {fileID: -993278976, guid: 52cd450adbd4b4d46a8996f51fedf242, type: 3}
-    audioClip: {fileID: 8300000, guid: e9309f3b7ce3c0b46b0024f278192fdb, type: 3}
+    audioClip: {fileID: 8300000, guid: 8f07c40950493334c8b930087e78c789, type: 3}
     highlightSecondImage: 0
     hideFirstImage: 0
-  - dialogueText: Wow, you became friends, I understand.
+    nextBackground: {fileID: 0}
+    nextEvent: 
+  - dialogueText: I see, you give him good food. Well I have some errands to do,
+      but we usually come daily to the park to relax, so come and join us whenever
+      you're around!
     secondSprite: {fileID: -993278976, guid: 52cd450adbd4b4d46a8996f51fedf242, type: 3}
-    audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
-    highlightSecondImage: 0
-    hideFirstImage: 0
-  - dialogueText: My name is Aster
-    secondSprite: {fileID: 568753464, guid: f1e06f6253649f348bf5ebc4c6e9800f, type: 3}
     audioClip: {fileID: 8300000, guid: 2b3a6fba15af09e47b82fb5cfa809ed3, type: 3}
     highlightSecondImage: 1
     hideFirstImage: 0
-  - dialogueText: We usually come
-    secondSprite: {fileID: 568753464, guid: f1e06f6253649f348bf5ebc4c6e9800f, type: 3}
+    nextBackground: {fileID: 0}
+    nextEvent: 
+  - dialogueText: come and join us whenever you're around!
+    secondSprite: {fileID: -993278976, guid: 52cd450adbd4b4d46a8996f51fedf242, type: 3}
     audioClip: {fileID: 8300000, guid: 2b3a6fba15af09e47b82fb5cfa809ed3, type: 3}
     highlightSecondImage: 1
     hideFirstImage: 0
-  - dialogueText: Thank you,
+    nextBackground: {fileID: 0}
+    nextEvent: 
+  - dialogueText: Th-thank you, m-mister...
     secondSprite: {fileID: -993278976, guid: 52cd450adbd4b4d46a8996f51fedf242, type: 3}
     audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
     highlightSecondImage: 0
     hideFirstImage: 0
-  - dialogueText: 'we have '
-    secondSprite: {fileID: 568753464, guid: f1e06f6253649f348bf5ebc4c6e9800f, type: 3}
-    audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
-    highlightSecondImage: 0
-    hideFirstImage: 0
-  - dialogueText: Goodbye, kid
+    nextBackground: {fileID: 0}
+    nextEvent: 
+  - dialogueText: Goodbye, kid! See you around!
     secondSprite: {fileID: -993278976, guid: 52cd450adbd4b4d46a8996f51fedf242, type: 3}
-    audioClip: {fileID: 8300000, guid: dc6c5302e7f42094681cb0d03e567b41, type: 3}
+    audioClip: {fileID: 8300000, guid: 2b3a6fba15af09e47b82fb5cfa809ed3, type: 3}
     highlightSecondImage: 1
     hideFirstImage: 0
-  - dialogueText: See you around
-    secondSprite: {fileID: 568753464, guid: f1e06f6253649f348bf5ebc4c6e9800f, type: 3}
-    audioClip: {fileID: 8300000, guid: 47b435a50c5a9254aabb3887759fd76a, type: 3}
-    highlightSecondImage: 1
-    hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
 --- !u!82 &1053617391
 AudioSource:
   m_ObjectHideFlags: 0
@@ -991,8 +1048,8 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 200738042050637178, guid: bd08c142bf2cef34a8156c21c20ac6c5,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: eb4d42c27e2c44049b64fa81214269c3, type: 3}
-  m_Resource: {fileID: 8300000, guid: eb4d42c27e2c44049b64fa81214269c3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: f5c29c5428d68b444a0624756958f33b, type: 3}
+  m_Resource: {fileID: 8300000, guid: f5c29c5428d68b444a0624756958f33b, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.1
   m_Pitch: 1

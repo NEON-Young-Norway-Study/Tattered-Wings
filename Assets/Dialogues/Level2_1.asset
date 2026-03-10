@@ -16,8 +16,8 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 738.3998
-    y: 311.19998
+    x: 1015.1997
+    y: 371.19995
     width: 190
     height: 135
   isDragging: 0
@@ -26,6 +26,10 @@ MonoBehaviour:
     characterName: 
     text: '(Hektor flies away chasing another bee) '
     characterSprite: {fileID: 0}
+    secondSprite: {fileID: -1114185884, guid: 25b4756bbd9e9d94e9d7512afe8b0fe0, type: 3}
+    audioClip: {fileID: 0}
+    highlightSprite: 
+    background: {fileID: 0}
   parentNode: {fileID: -3890821218912323519}
   childNode: {fileID: 0}
   isExternalFunc: 0
@@ -46,19 +50,24 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 474.40015
-    y: 316.00003
+    x: 749.6004
+    y: 376.00003
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: TJ
     text: ...Dont leave me alone...
-    characterSprite: {fileID: 528227515, guid: 4c8f277b5c501c8418aa0030a825ed14, type: 3}
+    characterSprite: {fileID: -406003448, guid: 28808405bf7417049803edb6f417ff3f,
+      type: 3}
+    secondSprite: {fileID: -1114185884, guid: 25b4756bbd9e9d94e9d7512afe8b0fe0, type: 3}
+    audioClip: {fileID: 8300000, guid: 664fd3b0f96d0a747b37670de22f865e, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
   parentNode: {fileID: 766470811902254706}
   childNode: {fileID: -4264062682859170647}
-  isExternalFunc: 1
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras
 --- !u!114 &11400000
 MonoBehaviour:
@@ -94,17 +103,22 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 227.99976
-    y: 316.79996
+    x: 440.79996
+    y: 377.59995
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: TJ
     text: 'Hektooor where are you going? '
-    characterSprite: {fileID: -1437087, guid: 7d8b6bbd41e96c04486869d5480d93c2, type: 3}
+    characterSprite: {fileID: 1819849288, guid: 7ee56d85e7d3a4d499139abb423484c7,
+      type: 3}
+    secondSprite: {fileID: 584494566, guid: 8b95fda1185c80744b86ecc54f07bece, type: 3}
+    audioClip: {fileID: 8300000, guid: 664fd3b0f96d0a747b37670de22f865e, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
   parentNode: {fileID: 0}
   childNode: {fileID: -3890821218912323519}
-  isExternalFunc: 1
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras

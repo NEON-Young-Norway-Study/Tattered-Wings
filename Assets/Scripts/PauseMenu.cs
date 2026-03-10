@@ -15,7 +15,6 @@ public class PauseMenu : MonoBehaviour
 
     void Start()
     {
-        //gameObject.SetActive(false);
         optionsMenu.SetActive(false);
         canvas = GetComponent<Canvas>();
         canvas.enabled = false;
@@ -68,14 +67,17 @@ public class PauseMenu : MonoBehaviour
         if (dropdownValue == 0)
         {
             playUI.SetJoystickLeft();
+            playUI.SetJumpButtonRight();
         } 
         else if (dropdownValue == 1)
         {
             playUI.SetJoystickRight();
+            playUI.SetJumpButtonLeft();
         }
         else
         {
             playUI.SetJoystickRight();
+            playUI.SetJumpButtonLeft();
         }
     }
 }

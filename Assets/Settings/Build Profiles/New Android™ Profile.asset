@@ -23,8 +23,6 @@ MonoBehaviour:
   - m_enabled: 1
     m_path: Assets/Scenes/Definitive Levels/IntroDialogue.unity
   - m_enabled: 1
-    m_path: Assets/Scenes/Definitive Levels/LevelOne.unity
-  - m_enabled: 1
     m_path: Assets/Scenes/Definitive Levels/Continue.unity
   - m_enabled: 1
     m_path: Assets/Scenes/Definitive Levels/LevelTwov2.unity
@@ -33,11 +31,23 @@ MonoBehaviour:
   - m_enabled: 1
     m_path: Assets/Scenes/Definitive Levels/pre-ParkDialogue.unity
   - m_enabled: 1
-    m_path: Assets/Scenes/Definitive Levels/IntroDialogueTwo.unity
+    m_path: Assets/Scenes/Definitive Levels/LivingRoom.unity
   - m_enabled: 1
     m_path: Assets/Scenes/Definitive Levels/ParkDialogueEnd.unity
   - m_enabled: 1
     m_path: Assets/Scenes/Definitive Levels/TJRoom.unity
+  - m_enabled: 1
+    m_path: Assets/Scenes/Definitive Levels/SchoolScene.unity
+  - m_enabled: 1
+    m_path: Assets/Scenes/Definitive Levels/TJRoom Evening.unity
+  - m_enabled: 1
+    m_path: Assets/Scenes/Definitive Levels/Doctor Asclepio.unity
+  - m_enabled: 1
+    m_path: Assets/Scenes/Definitive Levels/EndScene.unity
+  - m_enabled: 1
+    m_path: Assets/Scenes/Definitive Levels/TLevelOne.unity
+  - m_enabled: 1
+    m_path: Assets/Scenes/Credits.unity
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:
     m_Settings: []
@@ -63,7 +73,7 @@ MonoBehaviour:
         m_ExportAsGoogleAndroidProject: 0
         m_DebugSymbolLevel: 1
         m_DebugSymbolFormat: 5
-        m_CurrentDeploymentTargetId: ZY32G9XV8N
+        m_CurrentDeploymentTargetId: __builtin__target_default
         m_BuildType: 2
         m_BuildAppBundle: 0
         m_IPAddressToConnect: 

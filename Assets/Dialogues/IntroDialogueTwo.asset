@@ -33,20 +33,23 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 863.1993
-    y: 189.59982
+    x: 648.7994
+    y: 203.99982
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: Hektor
     text: Bzz
-    characterSprite: {fileID: 2016525513, guid: eaf71d551a25acc47b1476117558526e,
-      type: 3}
+    characterSprite: {fileID: 301606548, guid: edc885b93ab9b704a8ca609ba766db6d, type: 3}
+    secondSprite: {fileID: 993109478, guid: 6061a84127c0c15439d14151ec4c9ba6, type: 3}
+    audioClip: {fileID: 8300000, guid: 8f07c40950493334c8b930087e78c789, type: 3}
+    highlightSprite: Right
+    background: {fileID: 0}
   parentNode: {fileID: 4106974582413431015}
   childNode: {fileID: 0}
-  isExternalFunc: 1
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras
 --- !u!114 &4106974582413431015
 MonoBehaviour:
@@ -64,18 +67,21 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 534.4006
-    y: 191.99985
+    x: 320.80066
+    y: 205.59985
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: TJ
     text: "Oh, Hektor, look at me! I\u2019m losing feathers. I don\u2019t like it"
-    characterSprite: {fileID: 2016525513, guid: eaf71d551a25acc47b1476117558526e,
-      type: 3}
+    characterSprite: {fileID: 301606548, guid: edc885b93ab9b704a8ca609ba766db6d, type: 3}
+    secondSprite: {fileID: 993109478, guid: 6061a84127c0c15439d14151ec4c9ba6, type: 3}
+    audioClip: {fileID: 8300000, guid: 664fd3b0f96d0a747b37670de22f865e, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
   parentNode: {fileID: 0}
   childNode: {fileID: 1352093809489221244}
-  isExternalFunc: 1
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras

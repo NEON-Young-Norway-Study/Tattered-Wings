@@ -1,5 +1,73 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8994452790756253857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 916.0059
+    y: 112.00006
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: TJ
+    text: Th-thank you, m-mister...
+    characterSprite: {fileID: 393688136, guid: 542f93bf2d7349c4cbf7c470be2eec28, type: 3}
+    secondSprite: {fileID: -1874609294, guid: 29f7b662068f72b4c96f1ca942b47ca7, type: 3}
+    audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
+  parentNode: {fileID: -1185937004485050851}
+  childNode: {fileID: -8831417476361763800}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &-8831417476361763800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 1176.8042
+    y: 397.59967
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Aster
+    text: 'Goodbye, kid! See you around! '
+    characterSprite: {fileID: 393688136, guid: 542f93bf2d7349c4cbf7c470be2eec28, type: 3}
+    secondSprite: {fileID: 1254414171, guid: fee3974e650eb274db2ec737b3d4b8a6, type: 3}
+    audioClip: {fileID: 8300000, guid: 2b3a6fba15af09e47b82fb5cfa809ed3, type: 3}
+    highlightSprite: Right
+    background: {fileID: 0}
+  parentNode: {fileID: -8994452790756253857}
+  childNode: {fileID: 0}
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
 --- !u!114 &-8401495127668013892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16,20 +84,24 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -4340.8296
-    y: 26.399315
+    x: -3305.6274
+    y: -192.80066
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: TJ
-    text: "We\u2019ll help you find your family."
-    characterSprite: {fileID: -1000162966, guid: 735d92e31e6a4b84b8e2854100b4eec7,
+    characterName: Hektor
+    text: 'Bz, bzz. '
+    characterSprite: {fileID: -1114185884, guid: 25b4756bbd9e9d94e9d7512afe8b0fe0,
       type: 3}
+    secondSprite: {fileID: -970469269, guid: 7218f32fd013d3748b475c0ca147606a, type: 3}
+    audioClip: {fileID: 8300000, guid: 567a91b2671c7c04880b473758cd25b2, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
   parentNode: {fileID: 363960556590654366}
-  childNode: {fileID: 26784290896342633}
-  isExternalFunc: 1
+  childNode: {fileID: 1793030320429891453}
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras
 --- !u!114 &-7263887918870815400
 MonoBehaviour:
@@ -47,20 +119,23 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1228.8022
-    y: 300.0008
+    x: -34.40033
+    y: -55.99858
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: 
-    text: (TJ breathes deeply and feels ready to confront the stranger bird)
-    characterSprite: {fileID: 1173855435, guid: 9aead081219e1624d8c67c232889067e,
-      type: 3}
+    characterName: Aster
+    text: Wow! look at that, your bee is so Fluffy and soft. What do you feed it?
+    characterSprite: {fileID: 220250154, guid: 4ee67c725033bc746b345fdd745a7d64, type: 3}
+    secondSprite: {fileID: -399318380, guid: 6a60a94a4f22fdd4ebe243fe1503c44b, type: 3}
+    audioClip: {fileID: 8300000, guid: dc6c5302e7f42094681cb0d03e567b41, type: 3}
+    highlightSprite: Right
+    background: {fileID: 0}
   parentNode: {fileID: -1090177966519065121}
   childNode: {fileID: 6923090055518800014}
-  isExternalFunc: 1
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras
 --- !u!114 &-4907886124324577263
 MonoBehaviour:
@@ -78,19 +153,23 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -2805.6199
-    y: 289.60065
+    x: -1496.0234
+    y: 88.80109
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: Aster
-    text: 'Here you are! '
-    characterSprite: {fileID: 409048637, guid: b6a63afbd0ee8cf4ab3b6ee3e1222270, type: 3}
+    characterName: Monarde
+    text: Bzz!
+    characterSprite: {fileID: 167112979, guid: b902bb32f7763234fa4101af08e0dd86, type: 3}
+    secondSprite: {fileID: -1874609294, guid: 29f7b662068f72b4c96f1ca942b47ca7, type: 3}
+    audioClip: {fileID: 8300000, guid: 567a91b2671c7c04880b473758cd25b2, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
   parentNode: {fileID: 8990828250572085791}
   childNode: {fileID: 4357587572147508985}
-  isExternalFunc: 1
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras
 --- !u!114 &-4581788100768561263
 MonoBehaviour:
@@ -108,113 +187,24 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -5478.408
-    y: 71.19952
+    x: -4168.8066
+    y: -129.60013
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: Hektor
     text: Bzz, bzzzzzzzz.
-    characterSprite: {fileID: 1544103959, guid: 405d96ad742b71a4ebc0118f36c7853b,
+    characterSprite: {fileID: -1114185884, guid: 25b4756bbd9e9d94e9d7512afe8b0fe0,
       type: 3}
+    secondSprite: {fileID: -970469269, guid: 7218f32fd013d3748b475c0ca147606a, type: 3}
+    audioClip: {fileID: 8300000, guid: 8f07c40950493334c8b930087e78c789, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
   parentNode: {fileID: 0}
   childNode: {fileID: 7266959390310043140}
-  isExternalFunc: 1
-  externalFunctionName: ShowSentenceExtras
---- !u!114 &-4400616497924857970
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
-  m_Name: Sentence Node
-  m_EditorClassIdentifier: 
-  connectedNodesList: []
-  nodeGraph: {fileID: 11400000}
-  rect:
-    serializedVersion: 2
-    x: -363.18735
-    y: 307.20093
-    width: 190
-    height: 155
-  isDragging: 0
-  isSelected: 0
-  sentence:
-    characterName: TJ
-    text: "I\u2019m happy that we found him in time."
-    characterSprite: {fileID: 1173855435, guid: 9aead081219e1624d8c67c232889067e,
-      type: 3}
-  parentNode: {fileID: -785151200324186072}
-  childNode: {fileID: 211109431164026026}
-  isExternalFunc: 1
-  externalFunctionName: ShowSentenceExtras
---- !u!114 &-3056894212153018281
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
-  m_Name: Sentence Node
-  m_EditorClassIdentifier: 
-  connectedNodesList: []
-  nodeGraph: {fileID: 11400000}
-  rect:
-    serializedVersion: 2
-    x: 1013.6164
-    y: 303.20135
-    width: 190
-    height: 155
-  isDragging: 0
-  isSelected: 0
-  sentence:
-    characterName: TJ
-    text: Thank you, mister Aster
-    characterSprite: {fileID: 1173855435, guid: 9aead081219e1624d8c67c232889067e,
-      type: 3}
-  parentNode: {fileID: 5455545420970961028}
-  childNode: {fileID: 4878640616231475114}
-  isExternalFunc: 1
-  externalFunctionName: ShowSentenceExtras
---- !u!114 &-2801537403408168993
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
-  m_Name: Sentence Node
-  m_EditorClassIdentifier: 
-  connectedNodesList: []
-  nodeGraph: {fileID: 11400000}
-  rect:
-    serializedVersion: 2
-    x: 524.82104
-    y: 314.40137
-    width: 190
-    height: 155
-  isDragging: 0
-  isSelected: 0
-  sentence:
-    characterName: Aster
-    text: 'My name is Aster. '
-    characterSprite: {fileID: 1173855435, guid: 9aead081219e1624d8c67c232889067e,
-      type: 3}
-  parentNode: {fileID: 7779304650814780237}
-  childNode: {fileID: 5455545420970961028}
-  isExternalFunc: 1
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras
 --- !u!114 &-1424290403281336225
 MonoBehaviour:
@@ -232,20 +222,59 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -5018.409
-    y: 79.19967
+    x: -3614.4111
+    y: 2.3993073
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: TJ
     text: 'Hello, little one! What are you doing here? '
-    characterSprite: {fileID: 2016525513, guid: eaf71d551a25acc47b1476117558526e,
-      type: 3}
+    characterSprite: {fileID: 900652444, guid: ea30d0de6d6c5384d8164fd8343b1a22, type: 3}
+    secondSprite: {fileID: -970469269, guid: 7218f32fd013d3748b475c0ca147606a, type: 3}
+    audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
   parentNode: {fileID: 7266959390310043140}
   childNode: {fileID: 5209802261579204232}
-  isExternalFunc: 1
+  isExternalFunc: 0
+  externalFunctionName: ShowSentenceExtras
+--- !u!114 &-1185937004485050851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
+  m_Name: Sentence Node
+  m_EditorClassIdentifier: 
+  connectedNodesList: []
+  nodeGraph: {fileID: 11400000}
+  rect:
+    serializedVersion: 2
+    x: 670.40656
+    y: 417.5999
+    width: 190
+    height: 135
+  isDragging: 0
+  isSelected: 0
+  sentence:
+    characterName: Aster
+    text: 'I see you give him cookies? Well we have to go but maybe we will meet
+      you in the park again! Bye! '
+    characterSprite: {fileID: 1381349943, guid: 86e78a50d94bf0445bf742177c642d1e,
+      type: 3}
+    secondSprite: {fileID: -399318380, guid: 6a60a94a4f22fdd4ebe243fe1503c44b, type: 3}
+    audioClip: {fileID: 8300000, guid: 2b3a6fba15af09e47b82fb5cfa809ed3, type: 3}
+    highlightSprite: Right
+    background: {fileID: 0}
+  parentNode: {fileID: 8555443312081077035}
+  childNode: {fileID: -8994452790756253857}
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras
 --- !u!114 &-1090177966519065121
 MonoBehaviour:
@@ -263,82 +292,25 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1600.0073
-    y: 419.2016
+    x: -289.60995
+    y: 218.4013
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: 
-    text: "(Hektor climbs onto TJ\u2019s shoulder)"
-    characterSprite: {fileID: 1173855435, guid: 9aead081219e1624d8c67c232889067e,
+    characterName: Aster
+    text: 'I hope my bee did not trouble you kid! Monarde got scared by a spider
+      and ran away. '
+    characterSprite: {fileID: -1081601593, guid: 215dcf293deac124c83a6f6e94b0494c,
       type: 3}
+    secondSprite: {fileID: -399318380, guid: 6a60a94a4f22fdd4ebe243fe1503c44b, type: 3}
+    audioClip: {fileID: 8300000, guid: 2b3a6fba15af09e47b82fb5cfa809ed3, type: 3}
+    highlightSprite: Right
+    background: {fileID: 0}
   parentNode: {fileID: 1279123355376532412}
   childNode: {fileID: -7263887918870815400}
-  isExternalFunc: 1
-  externalFunctionName: ShowSentenceExtras
---- !u!114 &-1079670755825441474
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
-  m_Name: Sentence Node
-  m_EditorClassIdentifier: 
-  connectedNodesList: []
-  nodeGraph: {fileID: 11400000}
-  rect:
-    serializedVersion: 2
-    x: 1280.0146
-    y: 652.00226
-    width: 190
-    height: 155
-  isDragging: 0
-  isSelected: 0
-  sentence:
-    characterName: Aster
-    text: 'See you around! '
-    characterSprite: {fileID: -1970122269, guid: 39a074fe5976e9044886dd9b40d95fa9,
-      type: 3}
-  parentNode: {fileID: 5442727364447670398}
-  childNode: {fileID: 0}
-  isExternalFunc: 1
-  externalFunctionName: ShowSentenceExtrass
---- !u!114 &-785151200324186072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
-  m_Name: Sentence Node
-  m_EditorClassIdentifier: 
-  connectedNodesList: []
-  nodeGraph: {fileID: 11400000}
-  rect:
-    serializedVersion: 2
-    x: -591.9892
-    y: 310.40143
-    width: 190
-    height: 155
-  isDragging: 0
-  isSelected: 0
-  sentence:
-    characterName: Aster
-    text: 'Yes, Monarde is my pet, and today he got scared by a spider and ran away. '
-    characterSprite: {fileID: 1173855435, guid: 9aead081219e1624d8c67c232889067e,
-      type: 3}
-  parentNode: {fileID: 4364046174485353202}
-  childNode: {fileID: -4400616497924857970}
-  isExternalFunc: 1
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras
 --- !u!114 &11400000
 MonoBehaviour:
@@ -359,11 +331,9 @@ MonoBehaviour:
   - {fileID: 5209802261579204232}
   - {fileID: 363960556590654366}
   - {fileID: -8401495127668013892}
-  - {fileID: 26784290896342633}
   - {fileID: 1793030320429891453}
   - {fileID: 4476242552734103686}
   - {fileID: 3239311090351293339}
-  - {fileID: 4525733369679465384}
   - {fileID: 737584074225891718}
   - {fileID: 8990828250572085791}
   - {fileID: -4907886124324577263}
@@ -375,82 +345,12 @@ MonoBehaviour:
   - {fileID: -1090177966519065121}
   - {fileID: -7263887918870815400}
   - {fileID: 6923090055518800014}
-  - {fileID: 4364046174485353202}
-  - {fileID: -785151200324186072}
-  - {fileID: -4400616497924857970}
-  - {fileID: 211109431164026026}
-  - {fileID: 4720224883008288336}
-  - {fileID: 7779304650814780237}
-  - {fileID: -2801537403408168993}
-  - {fileID: 5455545420970961028}
-  - {fileID: -3056894212153018281}
-  - {fileID: 4878640616231475114}
-  - {fileID: 5442727364447670398}
-  - {fileID: -1079670755825441474}
+  - {fileID: 8555443312081077035}
+  - {fileID: -1185937004485050851}
+  - {fileID: -8994452790756253857}
+  - {fileID: -8831417476361763800}
   nodeToDrawLineFrom: {fileID: 0}
   linePosition: {x: 0, y: 0}
---- !u!114 &26784290896342633
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
-  m_Name: Sentence Node
-  m_EditorClassIdentifier: 
-  connectedNodesList: []
-  nodeGraph: {fileID: 11400000}
-  rect:
-    serializedVersion: 2
-    x: -4108.025
-    y: 79.19967
-    width: 190
-    height: 155
-  isDragging: 0
-  isSelected: 0
-  sentence:
-    characterName: Hektor
-    text: Bz, bzz.
-    characterSprite: {fileID: -1603123972, guid: ce22b1e2c520a6b4baaa859a3c770e92,
-      type: 3}
-  parentNode: {fileID: -8401495127668013892}
-  childNode: {fileID: 1793030320429891453}
-  isExternalFunc: 1
-  externalFunctionName: ShowSentenceExtras
---- !u!114 &211109431164026026
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
-  m_Name: Sentence Node
-  m_EditorClassIdentifier: 
-  connectedNodesList: []
-  nodeGraph: {fileID: 11400000}
-  rect:
-    serializedVersion: 2
-    x: -156.79224
-    y: 309.6015
-    width: 190
-    height: 155
-  isDragging: 0
-  isSelected: 0
-  sentence:
-    characterName: TJ
-    text: 'It seems that Hektor likes him. '
-    characterSprite: {fileID: 1173855435, guid: 9aead081219e1624d8c67c232889067e,
-      type: 3}
-  parentNode: {fileID: -4400616497924857970}
-  childNode: {fileID: 4720224883008288336}
-  isExternalFunc: 1
-  externalFunctionName: ShowSentenceExtras
 --- !u!114 &363960556590654366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -467,20 +367,23 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -4624.0244
-    y: 103.19987
+    x: -3364.8247
+    y: -473.5996
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: TJ
-    text: "Oh, I see. You\u2019re lost\u2026"
-    characterSprite: {fileID: 2016525513, guid: eaf71d551a25acc47b1476117558526e,
-      type: 3}
+    text: "Oh, I see. You\u2019re lost\u2026 We\u2019ll help you find your family. "
+    characterSprite: {fileID: 900652444, guid: ea30d0de6d6c5384d8164fd8343b1a22, type: 3}
+    secondSprite: {fileID: -970469269, guid: 7218f32fd013d3748b475c0ca147606a, type: 3}
+    audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
   parentNode: {fileID: 5209802261579204232}
   childNode: {fileID: -8401495127668013892}
-  isExternalFunc: 1
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras
 --- !u!114 &737584074225891718
 MonoBehaviour:
@@ -498,20 +401,23 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -3283.222
-    y: 280.80054
+    x: -2032.0269
+    y: -31.198654
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: TJ
-    text: Thank you for comforting me, Hektor.
-    characterSprite: {fileID: 1173855435, guid: 9aead081219e1624d8c67c232889067e,
-      type: 3}
-  parentNode: {fileID: 4525733369679465384}
+    characterName: Aster
+    text: Monaaaaard! Monaaaard! Where is my pet bee?
+    characterSprite: {fileID: 50676078, guid: 2674548656d22a54284ad8c8559b37f3, type: 3}
+    secondSprite: {fileID: -1706863005, guid: 1b9596f0ad6e16e48ac2afe1da05fef1, type: 3}
+    audioClip: {fileID: 8300000, guid: dc6c5302e7f42094681cb0d03e567b41, type: 3}
+    highlightSprite: Right
+    background: {fileID: 0}
+  parentNode: {fileID: 3239311090351293339}
   childNode: {fileID: 8990828250572085791}
-  isExternalFunc: 1
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras
 --- !u!114 &1279123355376532412
 MonoBehaviour:
@@ -529,20 +435,24 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1765.6099
-    y: 82.40063
+    x: -456.0103
+    y: -118.39902
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: Hektor
-    text: 'Bzz. '
-    characterSprite: {fileID: 2016525513, guid: eaf71d551a25acc47b1476117558526e,
+    characterName: TJ
+    text: "\u2026H-hello, m-mister"
+    characterSprite: {fileID: -1081601593, guid: 215dcf293deac124c83a6f6e94b0494c,
       type: 3}
+    secondSprite: {fileID: -1874609294, guid: 29f7b662068f72b4c96f1ca942b47ca7, type: 3}
+    audioClip: {fileID: 0}
+    highlightSprite: Left
+    background: {fileID: 0}
   parentNode: {fileID: 3868012879595748672}
   childNode: {fileID: -1090177966519065121}
-  isExternalFunc: 1
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras
 --- !u!114 &1793030320429891453
 MonoBehaviour:
@@ -560,20 +470,23 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -4299.2275
-    y: 279.20056
+    x: -3036.8267
+    y: -90.39823
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: TJ
-    text: ' I can see a bird flying towards us.'
-    characterSprite: {fileID: 2016525513, guid: eaf71d551a25acc47b1476117558526e,
-      type: 3}
-  parentNode: {fileID: 26784290896342633}
+    text: "\u2026 Is that a bird? I don\u2019t want to meet another bird! "
+    characterSprite: {fileID: 301606548, guid: edc885b93ab9b704a8ca609ba766db6d, type: 3}
+    secondSprite: {fileID: -936591992, guid: 2e546653e1cc87a4d99325ebc016c66f, type: 3}
+    audioClip: {fileID: 8300000, guid: 4c03c2911e929f649aa0491eb6097683, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
+  parentNode: {fileID: -8401495127668013892}
   childNode: {fileID: 4476242552734103686}
-  isExternalFunc: 1
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras
 --- !u!114 &2019841250489785025
 MonoBehaviour:
@@ -591,20 +504,24 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -2232.0134
-    y: 126.39985
+    x: -753.61615
+    y: -158.40012
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: Aster
-    text: 'Hello, kid! '
-    characterSprite: {fileID: 2016525513, guid: eaf71d551a25acc47b1476117558526e,
+    characterName: Hektor
+    text: Bzz
+    characterSprite: {fileID: -851221473, guid: 6c95a8234ed744641b66bd1bad972084,
       type: 3}
+    secondSprite: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: 567a91b2671c7c04880b473758cd25b2, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
   parentNode: {fileID: 3547387101187065248}
   childNode: {fileID: 3868012879595748672}
-  isExternalFunc: 1
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras
 --- !u!114 &3239311090351293339
 MonoBehaviour:
@@ -622,20 +539,24 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -3698.422
-    y: 277.60095
+    x: -2388.8262
+    y: 76.80182
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: Hektor
-    text: Bz, bzzz, bz.
-    characterSprite: {fileID: 2016525513, guid: eaf71d551a25acc47b1476117558526e,
+    characterName: TJ
+    text: Thank you for always being my friend, Hektor!
+    characterSprite: {fileID: -1105371875, guid: 6f1684188cf8c6a4d925363b8865d55d,
       type: 3}
+    secondSprite: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
   parentNode: {fileID: 4476242552734103686}
-  childNode: {fileID: 4525733369679465384}
-  isExternalFunc: 1
+  childNode: {fileID: 737584074225891718}
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras
 --- !u!114 &3547387101187065248
 MonoBehaviour:
@@ -653,19 +574,24 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -2388.0173
-    y: 292.80048
+    x: -1077.6182
+    y: 92.00079
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: Monarde
-    text: 'Bzz. '
-    characterSprite: {fileID: 409048637, guid: b6a63afbd0ee8cf4ab3b6ee3e1222270, type: 3}
+    characterName: TJ
+    text: "(I\u2019m scared\u2026 I feel like flying away\u2026)"
+    characterSprite: {fileID: -1081601593, guid: 215dcf293deac124c83a6f6e94b0494c,
+      type: 3}
+    secondSprite: {fileID: -1874609294, guid: 29f7b662068f72b4c96f1ca942b47ca7, type: 3}
+    audioClip: {fileID: 0}
+    highlightSprite: Left
+    background: {fileID: 0}
   parentNode: {fileID: 4357587572147508985}
   childNode: {fileID: 2019841250489785025}
-  isExternalFunc: 1
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras
 --- !u!114 &3868012879595748672
 MonoBehaviour:
@@ -683,20 +609,24 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -2000.0156
-    y: 320.80096
+    x: -707.21844
+    y: 268.80133
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: TJ
-    text: "(I\u2019m scared\u2026 I feel like flying away\u2026)"
-    characterSprite: {fileID: 2016525513, guid: eaf71d551a25acc47b1476117558526e,
+    text: (Tj breathes deeply and feels ready to confront the stranger bird)
+    characterSprite: {fileID: -1976660039, guid: d15488e1223bbbf4fb5801d1277b6132,
       type: 3}
+    secondSprite: {fileID: -1874609294, guid: 29f7b662068f72b4c96f1ca942b47ca7, type: 3}
+    audioClip: {fileID: 0}
+    highlightSprite: Left
+    background: {fileID: 0}
   parentNode: {fileID: 2019841250489785025}
   childNode: {fileID: 1279123355376532412}
-  isExternalFunc: 1
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras
 --- !u!114 &4357587572147508985
 MonoBehaviour:
@@ -714,50 +644,24 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -2604.0188
-    y: 290.40063
+    x: -1293.6213
+    y: 89.601135
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: Aster
-    text: ' Why did you run away? '
-    characterSprite: {fileID: 409048637, guid: b6a63afbd0ee8cf4ab3b6ee3e1222270, type: 3}
+    text: 'Hello, kid! '
+    characterSprite: {fileID: -1081601593, guid: 215dcf293deac124c83a6f6e94b0494c,
+      type: 3}
+    secondSprite: {fileID: -399318380, guid: 6a60a94a4f22fdd4ebe243fe1503c44b, type: 3}
+    audioClip: {fileID: 8300000, guid: 2b3a6fba15af09e47b82fb5cfa809ed3, type: 3}
+    highlightSprite: Right
+    background: {fileID: 0}
   parentNode: {fileID: -4907886124324577263}
   childNode: {fileID: 3547387101187065248}
-  isExternalFunc: 1
-  externalFunctionName: ShowSentenceExtras
---- !u!114 &4364046174485353202
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
-  m_Name: Sentence Node
-  m_EditorClassIdentifier: 
-  connectedNodesList: []
-  nodeGraph: {fileID: 11400000}
-  rect:
-    serializedVersion: 2
-    x: -800.79205
-    y: 305.6012
-    width: 190
-    height: 155
-  isDragging: 0
-  isSelected: 0
-  sentence:
-    characterName: Aster
-    text: 'Haha, what a respectful kid! '
-    characterSprite: {fileID: 1173855435, guid: 9aead081219e1624d8c67c232889067e,
-      type: 3}
-  parentNode: {fileID: 6923090055518800014}
-  childNode: {fileID: -785151200324186072}
-  isExternalFunc: 1
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras
 --- !u!114 &4476242552734103686
 MonoBehaviour:
@@ -775,113 +679,23 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -4018.4207
-    y: 353.60052
+    x: -2708.8203
+    y: 152.80048
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: TJ
-    text: "(I don\u2019t feel prepared for this\u2026)"
-    characterSprite: {fileID: 2016525513, guid: eaf71d551a25acc47b1476117558526e,
-      type: 3}
+    characterName: Hektor
+    text: 'Bz, bzzz, bz. '
+    characterSprite: {fileID: 301606548, guid: edc885b93ab9b704a8ca609ba766db6d, type: 3}
+    secondSprite: {fileID: 220250154, guid: 4ee67c725033bc746b345fdd745a7d64, type: 3}
+    audioClip: {fileID: 8300000, guid: 567a91b2671c7c04880b473758cd25b2, type: 3}
+    highlightSprite: Right
+    background: {fileID: 0}
   parentNode: {fileID: 1793030320429891453}
   childNode: {fileID: 3239311090351293339}
-  isExternalFunc: 1
-  externalFunctionName: ShowSentenceExtras
---- !u!114 &4525733369679465384
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
-  m_Name: Sentence Node
-  m_EditorClassIdentifier: 
-  connectedNodesList: []
-  nodeGraph: {fileID: 11400000}
-  rect:
-    serializedVersion: 2
-    x: -3539.219
-    y: 540.00006
-    width: 190
-    height: 155
-  isDragging: 0
-  isSelected: 0
-  sentence:
-    characterName: Hektor
-    text: Bz, bzzz, bz. (Hektor rubs against TJ's wings)
-    characterSprite: {fileID: 1173855435, guid: 9aead081219e1624d8c67c232889067e,
-      type: 3}
-  parentNode: {fileID: 3239311090351293339}
-  childNode: {fileID: 737584074225891718}
-  isExternalFunc: 1
-  externalFunctionName: ShowSentenceExtras
---- !u!114 &4720224883008288336
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
-  m_Name: Sentence Node
-  m_EditorClassIdentifier: 
-  connectedNodesList: []
-  nodeGraph: {fileID: 11400000}
-  rect:
-    serializedVersion: 2
-    x: 57.613403
-    y: 313.60156
-    width: 190
-    height: 155
-  isDragging: 0
-  isSelected: 0
-  sentence:
-    characterName: Hektor
-    text: Bzz, bz.
-    characterSprite: {fileID: -1603123972, guid: ce22b1e2c520a6b4baaa859a3c770e92,
-      type: 3}
-  parentNode: {fileID: 211109431164026026}
-  childNode: {fileID: 7779304650814780237}
-  isExternalFunc: 1
-  externalFunctionName: ShowSentenceExtras
---- !u!114 &4878640616231475114
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
-  m_Name: Sentence Node
-  m_EditorClassIdentifier: 
-  connectedNodesList: []
-  nodeGraph: {fileID: 11400000}
-  rect:
-    serializedVersion: 2
-    x: 1028.8147
-    y: 481.60095
-    width: 190
-    height: 155
-  isDragging: 0
-  isSelected: 0
-  sentence:
-    characterName: TJ
-    text: We have to go now.
-    characterSprite: {fileID: -1970122269, guid: 39a074fe5976e9044886dd9b40d95fa9,
-      type: 3}
-  parentNode: {fileID: -3056894212153018281}
-  childNode: {fileID: 5442727364447670398}
-  isExternalFunc: 1
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras
 --- !u!114 &5209802261579204232
 MonoBehaviour:
@@ -899,83 +713,23 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -4786.42
-    y: -140.80148
+    x: -3690.417
+    y: -322.40125
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: Monarde
     text: Bzzzzzz.
-    characterSprite: {fileID: 2016525513, guid: eaf71d551a25acc47b1476117558526e,
-      type: 3}
+    characterSprite: {fileID: 900652444, guid: ea30d0de6d6c5384d8164fd8343b1a22, type: 3}
+    secondSprite: {fileID: -970469269, guid: 7218f32fd013d3748b475c0ca147606a, type: 3}
+    audioClip: {fileID: 8300000, guid: c15dd1f96a93633429c44174e57f6891, type: 3}
+    highlightSprite: Right
+    background: {fileID: 0}
   parentNode: {fileID: -1424290403281336225}
   childNode: {fileID: 363960556590654366}
-  isExternalFunc: 1
-  externalFunctionName: ShowSentenceExtras
---- !u!114 &5442727364447670398
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
-  m_Name: Sentence Node
-  m_EditorClassIdentifier: 
-  connectedNodesList: []
-  nodeGraph: {fileID: 11400000}
-  rect:
-    serializedVersion: 2
-    x: 1032.0149
-    y: 659.2015
-    width: 190
-    height: 155
-  isDragging: 0
-  isSelected: 0
-  sentence:
-    characterName: Aster
-    text: Goodbye, kid!
-    characterSprite: {fileID: -1970122269, guid: 39a074fe5976e9044886dd9b40d95fa9,
-      type: 3}
-  parentNode: {fileID: 4878640616231475114}
-  childNode: {fileID: -1079670755825441474}
-  isExternalFunc: 1
-  externalFunctionName: ShowSentenceExtras
---- !u!114 &5455545420970961028
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a32a464d8ccff4e40a60c45b40a1e648, type: 3}
-  m_Name: Sentence Node
-  m_EditorClassIdentifier: 
-  connectedNodesList: []
-  nodeGraph: {fileID: 11400000}
-  rect:
-    serializedVersion: 2
-    x: 761.61334
-    y: 296.00177
-    width: 190
-    height: 155
-  isDragging: 0
-  isSelected: 0
-  sentence:
-    characterName: Aster
-    text: ' We usually come daily to the park to relax, so come and join us whenever
-      you''re around! '
-    characterSprite: {fileID: 1173855435, guid: 9aead081219e1624d8c67c232889067e,
-      type: 3}
-  parentNode: {fileID: -2801537403408168993}
-  childNode: {fileID: -3056894212153018281}
-  isExternalFunc: 1
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras
 --- !u!114 &6923090055518800014
 MonoBehaviour:
@@ -993,20 +747,23 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -1003.2002
-    y: 300.80072
+    x: 308.0091
+    y: 100.00128
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: TJ
-    text: "\u2026Hello, mister, is this your bee?"
-    characterSprite: {fileID: 1173855435, guid: 9aead081219e1624d8c67c232889067e,
-      type: 3}
+    text: "I.-It\u2019s th-e fo.."
+    characterSprite: {fileID: 393688136, guid: 542f93bf2d7349c4cbf7c470be2eec28, type: 3}
+    secondSprite: {fileID: -1874609294, guid: 29f7b662068f72b4c96f1ca942b47ca7, type: 3}
+    audioClip: {fileID: 8300000, guid: da1f1ed9f482d964c950b4517440c9dc, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
   parentNode: {fileID: -7263887918870815400}
-  childNode: {fileID: 4364046174485353202}
-  isExternalFunc: 1
+  childNode: {fileID: 8555443312081077035}
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras
 --- !u!114 &7266959390310043140
 MonoBehaviour:
@@ -1024,22 +781,25 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -5231.209
-    y: 79.19979
+    x: -3921.6133
+    y: -121.599945
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: TJ
     text: 'Wow, you found a friend! '
-    characterSprite: {fileID: 1183935749, guid: ccce4619aafe97e45a4d90e80b90009d,
-      type: 3}
+    characterSprite: {fileID: 393688136, guid: 542f93bf2d7349c4cbf7c470be2eec28, type: 3}
+    secondSprite: {fileID: -970469269, guid: 7218f32fd013d3748b475c0ca147606a, type: 3}
+    audioClip: {fileID: 8300000, guid: 4c03c2911e929f649aa0491eb6097683, type: 3}
+    highlightSprite: Left
+    background: {fileID: 0}
   parentNode: {fileID: -4581788100768561263}
   childNode: {fileID: -1424290403281336225}
-  isExternalFunc: 1
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras
---- !u!114 &7779304650814780237
+--- !u!114 &8555443312081077035
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1055,20 +815,24 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: 305.6167
-    y: 316.0014
+    x: 349.60278
+    y: 397.59955
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
-    characterName: TJ
-    text: Wow, you became friends, I understand.
-    characterSprite: {fileID: 1173855435, guid: 9aead081219e1624d8c67c232889067e,
-      type: 3}
-  parentNode: {fileID: 4720224883008288336}
-  childNode: {fileID: -2801537403408168993}
-  isExternalFunc: 1
+    characterName: Hektor
+    text: (Hektor approaches to TJ and steals a snack from his pocket, then he went
+      to aster and showed the stolen cookie proudly and eat it)
+    characterSprite: {fileID: 393688136, guid: 542f93bf2d7349c4cbf7c470be2eec28, type: 3}
+    secondSprite: {fileID: 1381349943, guid: 86e78a50d94bf0445bf742177c642d1e, type: 3}
+    audioClip: {fileID: 0}
+    highlightSprite: Right
+    background: {fileID: 0}
+  parentNode: {fileID: 6923090055518800014}
+  childNode: {fileID: -1185937004485050851}
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras
 --- !u!114 &8990828250572085791
 MonoBehaviour:
@@ -1086,17 +850,21 @@ MonoBehaviour:
   nodeGraph: {fileID: 11400000}
   rect:
     serializedVersion: 2
-    x: -3040.8186
-    y: 283.20056
+    x: -1730.4187
+    y: 81.60101
     width: 190
-    height: 155
+    height: 135
   isDragging: 0
   isSelected: 0
   sentence:
     characterName: Aster
-    text: 'Monaaaaard! Monaaaard! '
-    characterSprite: {fileID: 33799009, guid: 6ee40abe4de43eb4f90582cf2c718371, type: 3}
+    text: Here you are! Why did you run away?
+    characterSprite: {fileID: 167112979, guid: b902bb32f7763234fa4101af08e0dd86, type: 3}
+    secondSprite: {fileID: 1350846876, guid: 004176430f2dabf45ac1c2a4c74736c4, type: 3}
+    audioClip: {fileID: 8300000, guid: 2b3a6fba15af09e47b82fb5cfa809ed3, type: 3}
+    highlightSprite: Right
+    background: {fileID: 0}
   parentNode: {fileID: 737584074225891718}
   childNode: {fileID: -4907886124324577263}
-  isExternalFunc: 1
+  isExternalFunc: 0
   externalFunctionName: ShowSentenceExtras

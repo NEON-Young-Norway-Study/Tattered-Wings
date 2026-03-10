@@ -385,7 +385,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 1628631959, guid: a717114ec28323b45a3a2f15bdb0edee,
+      objectReference: {fileID: 632003625, guid: e3108ff3df1df0c498f3773d03a6f424,
         type: 3}
     - target: {fileID: 4825435160123347712, guid: 0bd08184220c9914a877f3a735221e05,
         type: 3}
@@ -485,22 +485,29 @@ MonoBehaviour:
   sceneToLoad: ParkDialogue
   secondImage: {fileID: 404865194}
   characterImage: {fileID: 404865195}
+  background: {fileID: 0}
   sentencesExtras:
   - dialogueText: 
     secondSprite: {fileID: 164088020, guid: 4b085bf5e4b9cee449b540f64a4a6d29, type: 3}
     audioClip: {fileID: 8300000, guid: 403652a9055f25f4f863101af74a8d7a, type: 3}
     highlightSecondImage: 0
     hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
   - dialogueText: 
     secondSprite: {fileID: 164088020, guid: 4b085bf5e4b9cee449b540f64a4a6d29, type: 3}
     audioClip: {fileID: 8300000, guid: 403652a9055f25f4f863101af74a8d7a, type: 3}
     highlightSecondImage: 1
     hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
   - dialogueText: 
     secondSprite: {fileID: 164088020, guid: 4b085bf5e4b9cee449b540f64a4a6d29, type: 3}
     audioClip: {fileID: 0}
     highlightSecondImage: 1
     hideFirstImage: 0
+    nextBackground: {fileID: 0}
+    nextEvent: 
 --- !u!82 &1053617391
 AudioSource:
   m_ObjectHideFlags: 0

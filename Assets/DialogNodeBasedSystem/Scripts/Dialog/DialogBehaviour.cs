@@ -31,7 +31,7 @@ namespace cherrydev
         }
 
         public event Action OnSentenceNodeActive;
-        public event Action<string, string, Sprite> OnSentenceNodeActiveWithParameter;
+        public event Action<string, string, Sprite, Sprite, AudioClip, string, Sprite> OnSentenceNodeActiveWithParameter;
         public event Action OnAnswerNodeActive;
         public event Action<int, AnswerNode> OnAnswerButtonSetUp;
         public event Action<int> OnMaxAmountOfAnswerButtonsCalculated;
@@ -156,7 +156,11 @@ namespace cherrydev
 
             OnSentenceNodeActive?.Invoke();
             OnSentenceNodeActiveWithParameter?.Invoke(sentenceNode.GetSentenceCharacterName(), sentenceNode.GetSentenceText(),
-                sentenceNode.GetCharacterSprite());
+                sentenceNode.GetCharacterSprite(), 
+                sentenceNode.GetSecondSprite(), 
+                sentenceNode.GetAudioClip(), 
+                sentenceNode.GetHighlightSprite(),
+                sentenceNode.GetBackground());
 
             if (sentenceNode.IsExternalFunc())
             {

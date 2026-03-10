@@ -485,8 +485,8 @@
                 {
                     "name": "",
                     "id": "f34dd784-1160-4e57-aac2-45c978ceb7dc",
-                    "path": "<Touchscreen>/primaryTouch/indirectTouch",
-                    "interactions": "",
+                    "path": "<Touchscreen>/primaryTouch/tap",
+                    "interactions": "Tap",
                     "processors": "",
                     "groups": ";Touch;Keyboard&Mouse",
                     "action": "TouchOrClick",
