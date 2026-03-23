@@ -35,13 +35,18 @@
       <div id="unity-footer">
         <div id="unity-logo-title-footer"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Shadows Of The Forest</div>
+        <div id="unity-build-title">Tattered Wings</div>
       </div>
     </div>
-
     <script>
       var canvas = document.querySelector("#unity-canvas");
 
+      // Shows a temporary message banner/ribbon for a few seconds, or
+      // a permanent error message on top of the canvas if type=='error'.
+      // If type=='warning', a yellow highlight color is used.
+      // Modify or remove this function to customize the visually presented
+      // way that non-critical warnings and error messages are presented to the
+      // user.
       function unityShowBanner(msg, type) {
         var warningBanner = document.querySelector("#unity-warning");
         function updateBannerVisibility() {
@@ -62,12 +67,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/TatteredWingsBuild.loader.js";
+      var loaderUrl = buildUrl + "/Tattered-Wings-gh-pages.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/TatteredWingsBuild.data",
-        frameworkUrl: buildUrl + "/TatteredWingsBuild.framework.js",
-        codeUrl: buildUrl + "/TatteredWingsBuild.wasm",
+        dataUrl: buildUrl + "/Tattered-Wings-gh-pages.data",
+        frameworkUrl: buildUrl + "/Tattered-Wings-gh-pages.framework.js",
+        codeUrl: buildUrl + "/Tattered-Wings-gh-pages.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Tattered Wings",
