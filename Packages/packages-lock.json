@@ -263,13 +263,12 @@
       "url": "https://packages.unity.com"
     },
     "es.e-ucm.xasu": {
-      "version": "https://github.com/e-ucm/xasu.git",
+      "version": "file:C:/Users/Victo/XasuProject/Assets/xasu",
       "depth": 0,
-      "source": "git",
+      "source": "local",
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "3.0.2"
-      },
-      "hash": "4676d25599dd4b14c32dce534b59aac77f50e570"
+      }
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",

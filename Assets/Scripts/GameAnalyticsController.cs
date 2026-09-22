@@ -12,7 +12,7 @@ public class GameAnalyticsController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     async void Start()
     {
-        await Task.Yield();
+        await XasuTracker.Instance.Init();
         CompletableTracker.Instance.Initialized("Tattered-wings", CompletableTracker.CompletableType.Game);
     }
 
